@@ -403,34 +403,124 @@
     "fPartyDate": "Wunschdatum der Feier",
     "goesTo": "Ihre Nachricht geht an",
     "fConsent": "Ich bin einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage verwendet werden.",
-    "fSend": "Nachricht senden"
+    "fSend": "Nachricht senden",
+    "privacyLink": "Datenschutzerklärung"
   },
   "legal": {
     "h1": "Impressum",
+    "lead": "Offenlegung gemäß § 5 E-Commerce-Gesetz und § 25 Mediengesetz",
+    "note": "",
     "rows": [
       {
-        "l": "Kindergruppe",
-        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Wien"
+        "l": "Medieninhaber und Betreiber",
+        "v": "[Vereinsname laut Vereinsregister]\nGroße Neugasse 11/3\n1040 Wien, Österreich"
       },
       {
-        "l": "E-Mail",
-        "v": "don@quijote.at"
+        "l": "ZVR-Zahl",
+        "v": "[ZVR-Zahl]"
       },
       {
-        "l": "Träger",
-        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Wien\nZVR: 859337619"
+        "l": "Vertretungsbefugt",
+        "v": "[Vorname Nachname], Obfrau/Obmann"
       },
       {
-        "l": "Vertretung",
-        "v": "[Obfrau / Obmann des Elternvereins]"
+        "l": "Kontakt",
+        "v": "E-Mail: don@quijote.at\nTelefon: +43 699 104 89 928"
       },
       {
-        "l": "Webseite",
-        "v": "admin@quijote.at"
+        "l": "Vereinszweck",
+        "v": "Betrieb einer zweisprachigen (deutsch-spanischen) Kindergruppe für Kinder von 18 Monaten bis 6 Jahren in Wien."
+      },
+      {
+        "l": "Träger der Einrichtung",
+        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Wien\nZVR-Zahl 859337619"
+      },
+      {
+        "l": "Aufsichtsbehörde",
+        "v": "Magistrat der Stadt Wien, MA 11 – Kinder- und Jugendhilfe, Referat Kindergruppen und Tageseltern"
+      },
+      {
+        "l": "Anwendbare Rechtsvorschriften",
+        "v": "Wiener Tagesbetreuungsgesetz, abrufbar unter [www.ris.bka.gv.at](https://www.ris.bka.gv.at)"
+      },
+      {
+        "l": "Grundlegende Richtung",
+        "v": "Information über die Kindergruppe Quijote, ihr pädagogisches Konzept, das Team und die Aufnahme von Kindern."
+      },
+      {
+        "l": "Fotos",
+        "v": "Kindergruppe Quijote [sowie Bildquelle der Stockfotos]"
+      },
+      {
+        "l": "Haftung für Links",
+        "v": "Diese Website enthält Links zu externen Websites (z. B. Google Maps). Für deren Inhalte sind ausschließlich die jeweiligen Betreiber verantwortlich."
       }
     ],
-    "privacyTitle": "Datenschutz",
-    "privacy": "[Datenschutzerklärung einfügen: welche Daten das Kontaktformular erhebt, wie lange sie gespeichert werden, Rechte der Betroffenen gemäß DSGVO. Hinweis: Das Kontaktformular wird über den Dienst FormSubmit (formsubmit.co) per E-Mail zugestellt; die Schriften werden von Google Fonts geladen.]"
+    "privacyTitle": "Datenschutzerklärung",
+    "privacyIntro": "Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der Datenschutz-Grundverordnung (DSGVO) und des österreichischen Datenschutzgesetzes (DSG). Hier informieren wir Sie, welche Daten beim Besuch dieser Website verarbeitet werden.",
+    "sections": [
+      {
+        "h": "1. Verantwortlicher",
+        "p": [
+          "[Vereinsname laut Vereinsregister]\nGroße Neugasse 11/3, 1040 Wien\nE-Mail: don@quijote.at"
+        ]
+      },
+      {
+        "h": "2. Hosting und Server-Logfiles",
+        "p": [
+          "Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Website speichert GitHub aus Sicherheitsgründen die IP-Adresse aller Besucherinnen und Besucher. Dazu können technische Angaben wie Datum und Uhrzeit des Aufrufs, die aufgerufene Seite sowie Browser und Betriebssystem kommen.",
+          "Rechtsgrundlage ist unser berechtigtes Interesse an einem sicheren und zuverlässigen Betrieb der Website (Art. 6 Abs. 1 lit. f DSGVO). GitHub ist nach dem EU-U.S. Data Privacy Framework zertifiziert; damit ist ein angemessenes Datenschutzniveau für die Übermittlung in die USA gewährleistet (Art. 45 DSGVO). Näheres finden Sie im [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+        ]
+      },
+      {
+        "h": "3. Kontaktformular",
+        "p": [
+          "Wenn Sie uns über das Kontaktformular schreiben, verarbeiten wir die von Ihnen eingegebenen Daten: Name, E-Mail-Adresse, Anliegen, Ihre Nachricht sowie – je nach Anliegen – das Alter Ihres Kindes oder das Wunschdatum einer Feier. Wir verwenden diese Daten ausschließlich, um Ihre Anfrage zu beantworten.",
+          "Rechtsgrundlage ist bei Anfragen zu einem Betreuungsplatz die Durchführung vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO), sonst unser berechtigtes Interesse an der Beantwortung von Anfragen (Art. 6 Abs. 1 lit. f DSGVO).",
+          "Das Formular wird über den Dienst FormSubmit (formsubmit.co) versendet, der die Angaben per E-Mail an uns weiterleitet. Dabei werden Ihre Angaben und Ihre IP-Adresse an FormSubmit übermittelt. Der Anbieter nennt keinen Serverstandort; eine Verarbeitung außerhalb der EU ist daher möglich. Näheres finden Sie in der [Datenschutzerklärung von FormSubmit](https://formsubmit.co/privacy.pdf). Zum Schutz vor Spam kann FormSubmit vor dem Absenden eine Sicherheitsabfrage (Captcha) anzeigen und dabei Cookies setzen.",
+          "Anfragen zu freien Plätzen gehen an anmelden@quijote.at (E-Mail-Postfach bei World4You Internet Services GmbH, Österreich). Alle anderen Anfragen gehen an quijotekindergruppe@gmail.com (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland; eine Verarbeitung in den USA ist möglich, Google ist nach dem EU-U.S. Data Privacy Framework zertifiziert).",
+          "Wenn Sie das Formular nicht nutzen möchten, können Sie uns jederzeit direkt per E-Mail schreiben."
+        ]
+      },
+      {
+        "h": "4. Kontakt per E-Mail",
+        "p": [
+          "Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht, um Ihre Anfrage zu beantworten (Art. 6 Abs. 1 lit. b bzw. f DSGVO)."
+        ]
+      },
+      {
+        "h": "5. Schriftarten",
+        "p": [
+          "Die auf dieser Website verwendeten Schriftarten werden direkt von unserem Webserver geladen. Es findet dabei keine Verbindung zu Servern Dritter (z. B. Google) statt."
+        ]
+      },
+      {
+        "h": "6. Cookies und Analyse",
+        "p": [
+          "Diese Website selbst setzt keine Cookies und verwendet keine Analyse- oder Tracking-Werkzeuge. Zu möglichen Cookies beim Absenden des Kontaktformulars siehe Punkt 3."
+        ]
+      },
+      {
+        "h": "7. Externe Links",
+        "p": [
+          "Auf dieser Website finden Sie Links zu anderen Websites, etwa zu Google Maps. Erst wenn Sie einen solchen Link anklicken, werden Daten an den jeweiligen Anbieter übertragen. Für die dortige Datenverarbeitung ist der jeweilige Anbieter verantwortlich."
+        ]
+      },
+      {
+        "h": "8. Speicherdauer",
+        "p": [
+          "Wir speichern Anfragen nur so lange, wie es für ihre Bearbeitung nötig ist. Anfragen, aus denen kein Betreuungsverhältnis oder Arbeitsverhältnis entsteht, löschen wir spätestens [12] Monate nach der letzten Kommunikation, sofern keine gesetzlichen Aufbewahrungspflichten bestehen."
+        ]
+      },
+      {
+        "h": "9. Ihre Rechte",
+        "p": [
+          "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15 bis 21 DSGVO). Wenden Sie sich dazu bitte an don@quijote.at.",
+          "Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt, können Sie sich bei der Aufsichtsbehörde beschweren. In Österreich ist das die Datenschutzbehörde, Barichgasse 40–42, 1030 Wien, dsb@dsb.gv.at, [www.dsb.gv.at](https://www.dsb.gv.at)."
+        ]
+      }
+    ],
+    "updated": "Stand: Oktober 2026"
   },
   "cta": {
     "h": "Lust, uns kennenzulernen?",

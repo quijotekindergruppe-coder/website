@@ -403,34 +403,124 @@
     "fPartyDate": "Preferred party date",
     "goesTo": "Your message goes to",
     "fConsent": "I agree that my details will be used to answer my enquiry.",
-    "fSend": "Send message"
+    "fSend": "Send message",
+    "privacyLink": "Privacy policy"
   },
   "legal": {
     "h1": "Legal notice",
+    "lead": "Disclosure under § 5 of the Austrian E-Commerce Act (ECG) and § 25 of the Austrian Media Act (MedienG)",
+    "note": "This is an English translation for your convenience. Only the German version is legally binding.",
     "rows": [
       {
-        "l": "Playgroup",
-        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Vienna"
+        "l": "Media owner and website operator",
+        "v": "[Association name as in the register of associations]\nGroße Neugasse 11/3\n1040 Vienna, Austria"
       },
       {
-        "l": "Email",
-        "v": "don@quijote.at"
+        "l": "Association register no. (ZVR)",
+        "v": "[ZVR number]"
       },
       {
-        "l": "Operator",
-        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Vienna\nZVR: 859337619"
+        "l": "Authorised representative",
+        "v": "[First name Last name], Chair"
       },
       {
-        "l": "Represented by",
-        "v": "[Chair of the parents' association]"
+        "l": "Contact",
+        "v": "Email: don@quijote.at\nPhone: +43 699 104 89 928"
       },
       {
-        "l": "Website",
-        "v": "admin@quijote.at"
+        "l": "Purpose of the association",
+        "v": "Running a bilingual (German–Spanish) playgroup for children aged 18 months to 6 years in Vienna."
+      },
+      {
+        "l": "Operating organisation",
+        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Vienna\nZVR 859337619"
+      },
+      {
+        "l": "Supervisory authority",
+        "v": "City of Vienna, MA 11 – Child and Youth Welfare, Playgroups and Childminders Unit"
+      },
+      {
+        "l": "Applicable regulations",
+        "v": "Vienna Day Care Act (Wiener Tagesbetreuungsgesetz), available at [www.ris.bka.gv.at](https://www.ris.bka.gv.at)"
+      },
+      {
+        "l": "Purpose of this website",
+        "v": "Information about the Quijote playgroup, its educational concept, the team and admission of children."
+      },
+      {
+        "l": "Photos",
+        "v": "Kindergruppe Quijote [and source of stock photos]"
+      },
+      {
+        "l": "Liability for links",
+        "v": "This website links to external websites (e.g. Google Maps). Their operators are solely responsible for their content."
       }
     ],
-    "privacyTitle": "Privacy",
-    "privacy": "[Add privacy policy: what data the contact form collects, how long it is kept, and your rights under the GDPR. Note: the contact form is delivered by email via the FormSubmit service (formsubmit.co); fonts are loaded from Google Fonts.]"
+    "privacyTitle": "Privacy policy",
+    "privacyIntro": "We take the protection of your personal data seriously. We process your data solely on the basis of the EU General Data Protection Regulation (GDPR) and the Austrian Data Protection Act (DSG). This policy explains which data is processed when you visit this website.",
+    "sections": [
+      {
+        "h": "1. Controller",
+        "p": [
+          "[Association name as in the register of associations]\nGroße Neugasse 11/3, 1040 Vienna\nEmail: don@quijote.at"
+        ]
+      },
+      {
+        "h": "2. Hosting and server logs",
+        "p": [
+          "This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. For security reasons, GitHub stores the IP address of every visitor. Technical details such as the date and time of access, the page visited, and the browser and operating system may also be recorded.",
+          "The legal basis is our legitimate interest in operating the website securely and reliably (Art. 6(1)(f) GDPR). GitHub is certified under the EU-U.S. Data Privacy Framework, which ensures an adequate level of protection for transfers to the USA (Art. 45 GDPR). For details, see the [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+        ]
+      },
+      {
+        "h": "3. Contact form",
+        "p": [
+          "When you write to us using the contact form, we process the details you enter: name, email address, topic, your message and – depending on the topic – your child's age or the preferred date of a party. We use this data only to answer your enquiry.",
+          "For enquiries about a place, the legal basis is taking steps prior to entering into a contract (Art. 6(1)(b) GDPR); otherwise it is our legitimate interest in answering enquiries (Art. 6(1)(f) GDPR).",
+          "The form is sent via the FormSubmit service (formsubmit.co), which forwards your details to us by email. Your details and your IP address are transmitted to FormSubmit in the process. The provider does not state where its servers are located, so processing outside the EU is possible. For details, see [FormSubmit's privacy policy](https://formsubmit.co/privacy.pdf). To protect against spam, FormSubmit may show a security check (captcha) before sending and may set cookies.",
+          "Enquiries about available places go to anmelden@quijote.at (mailbox hosted by World4You Internet Services GmbH, Austria). All other enquiries go to quijotekindergruppe@gmail.com (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; processing in the USA is possible, Google is certified under the EU-U.S. Data Privacy Framework).",
+          "If you prefer not to use the form, you can always email us directly."
+        ]
+      },
+      {
+        "h": "4. Contact by email",
+        "p": [
+          "If you email us, we process your email address and the content of your message to answer your enquiry (Art. 6(1)(b) or (f) GDPR)."
+        ]
+      },
+      {
+        "h": "5. Fonts",
+        "p": [
+          "The fonts used on this website are loaded directly from our web server. No connection is made to third-party servers (such as Google)."
+        ]
+      },
+      {
+        "h": "6. Cookies and analytics",
+        "p": [
+          "This website itself does not set cookies and does not use analytics or tracking tools. For possible cookies when sending the contact form, see section 3."
+        ]
+      },
+      {
+        "h": "7. External links",
+        "p": [
+          "This website contains links to other websites, such as Google Maps. Data is only transmitted to the respective provider once you click such a link. The respective provider is responsible for any processing there."
+        ]
+      },
+      {
+        "h": "8. Retention",
+        "p": [
+          "We keep enquiries only as long as needed to handle them. Enquiries that do not lead to a care or employment relationship are deleted no later than [12] months after the last communication, unless statutory retention obligations apply."
+        ]
+      },
+      {
+        "h": "9. Your rights",
+        "p": [
+          "You have the right of access, rectification, erasure, restriction of processing, data portability and objection (Art. 15–21 GDPR). To exercise these rights, please contact don@quijote.at.",
+          "If you believe that the processing of your data violates data protection law, you can lodge a complaint with the supervisory authority. In Austria this is the Datenschutzbehörde (Data Protection Authority), Barichgasse 40–42, 1030 Vienna, dsb@dsb.gv.at, [www.dsb.gv.at](https://www.dsb.gv.at)."
+        ]
+      }
+    ],
+    "updated": "Last updated: October 2026"
   },
   "cta": {
     "h": "Fancy getting to know us?",

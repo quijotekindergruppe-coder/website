@@ -1,5 +1,13 @@
 /* Quijote – Kindergruppe · Jardín infantil
    Colours come from the logo: magenta horse, green donkey, charcoal lettering. */
+/* Fonts are served from this website (no connection to Google). SIL Open Font License, see assets/fonts/. */
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/poppins-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Poppins"; font-style: normal; font-weight: 800; font-display: swap; src: url("../fonts/poppins-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Nunito"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/nunito-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Nunito"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/nunito-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Nunito"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/nunito-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Nunito"; font-style: normal; font-weight: 800; font-display: swap; src: url("../fonts/nunito-latin-800-normal.woff2") format("woff2"); }
+
 :root {
   --ink: #302E2A;
   --ink-2: #45423C;
@@ -260,6 +268,11 @@ abbr[title] { text-decoration: none; color: var(--magenta-dark); }
 .legal__row { display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 14px 0; border-bottom: 1px solid var(--line); }
 .legal dt { font-weight: 800; flex: 0 0 220px; }
 .legal dd { margin: 0; color: var(--ink-2); flex: 1 1 300px; }
+.legal__note { background: var(--pink-tint); border-radius: 14px; padding: 14px 18px; font-weight: 700; }
+.legal__privacy { scroll-margin-top: 24px; padding-top: 16px; }
+.legal__privacy .h-card { margin-top: 12px; }
+.legal__privacy p { color: var(--ink-2); }
+.check a { font-weight: 800; }
 
 .thanks { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; padding-block: 96px; }
 .thanks__icon { width: 72px; height: 72px; border-radius: 999px; background: var(--green); display: flex; align-items: center; justify-content: center; }

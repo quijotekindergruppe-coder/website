@@ -403,34 +403,124 @@
     "fPartyDate": "Fecha deseada de la fiesta",
     "goesTo": "Su mensaje se enviará a",
     "fConsent": "Acepto que mis datos se utilicen para responder a mi consulta.",
-    "fSend": "Enviar mensaje"
+    "fSend": "Enviar mensaje",
+    "privacyLink": "Protección de datos"
   },
   "legal": {
     "h1": "Aviso legal",
+    "lead": "Información conforme al § 5 de la Ley austriaca de Comercio Electrónico (ECG) y al § 25 de la Ley austriaca de Medios (MedienG)",
+    "note": "Esta es una traducción al español para su comodidad. Solo la versión en alemán es jurídicamente vinculante.",
     "rows": [
       {
-        "l": "Jardín infantil",
-        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Viena"
+        "l": "Titular y responsable del sitio web",
+        "v": "[Nombre de la asociación según el registro]\nGroße Neugasse 11/3\n1040 Viena, Austria"
       },
       {
-        "l": "Correo",
-        "v": "don@quijote.at"
+        "l": "N.º de registro (ZVR)",
+        "v": "[Número ZVR]"
       },
       {
-        "l": "Entidad responsable",
-        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Viena\nZVR: 859337619"
+        "l": "Representación legal",
+        "v": "[Nombre Apellido], Presidencia"
       },
       {
-        "l": "Representación",
-        "v": "[Presidencia de la asociación de padres]"
+        "l": "Contacto",
+        "v": "Correo: don@quijote.at\nTeléfono: +43 699 104 89 928"
       },
       {
-        "l": "Sitio web",
-        "v": "admin@quijote.at"
+        "l": "Fin de la asociación",
+        "v": "Gestión de un jardín infantil bilingüe (alemán–español) para niños de 18 meses a 6 años en Viena."
+      },
+      {
+        "l": "Entidad responsable del centro",
+        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Viena\nZVR 859337619"
+      },
+      {
+        "l": "Autoridad de supervisión",
+        "v": "Ayuntamiento de Viena, MA 11 – Protección de la Infancia y la Juventud, Sección de Jardines Infantiles y Cuidadores de Día"
+      },
+      {
+        "l": "Normativa aplicable",
+        "v": "Ley vienesa de cuidado diurno (Wiener Tagesbetreuungsgesetz), disponible en [www.ris.bka.gv.at](https://www.ris.bka.gv.at)"
+      },
+      {
+        "l": "Finalidad del sitio web",
+        "v": "Información sobre el jardín infantil Quijote, su concepto pedagógico, el equipo y la inscripción de niños."
+      },
+      {
+        "l": "Fotos",
+        "v": "Kindergruppe Quijote [y fuente de las fotos de stock]"
+      },
+      {
+        "l": "Responsabilidad por enlaces",
+        "v": "Este sitio web contiene enlaces a sitios externos (p. ej., Google Maps). Sus contenidos son responsabilidad exclusiva de sus respectivos operadores."
       }
     ],
     "privacyTitle": "Protección de datos",
-    "privacy": "[Añadir política de privacidad: qué datos recoge el formulario, cuánto tiempo se guardan y los derechos según el RGPD. Nota: el formulario se envía por correo mediante el servicio FormSubmit (formsubmit.co); las fuentes se cargan desde Google Fonts.]"
+    "privacyIntro": "La protección de sus datos personales es importante para nosotros. Tratamos sus datos únicamente conforme al Reglamento General de Protección de Datos (RGPD) y a la Ley austriaca de Protección de Datos (DSG). A continuación le informamos qué datos se tratan al visitar este sitio web.",
+    "sections": [
+      {
+        "h": "1. Responsable del tratamiento",
+        "p": [
+          "[Nombre de la asociación según el registro]\nGroße Neugasse 11/3, 1040 Viena\nCorreo: don@quijote.at"
+        ]
+      },
+      {
+        "h": "2. Alojamiento y registros del servidor",
+        "p": [
+          "Este sitio web está alojado en GitHub Pages, un servicio de GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, EE. UU. Por motivos de seguridad, GitHub guarda la dirección IP de todas las personas que visitan el sitio. También pueden registrarse datos técnicos como la fecha y hora de acceso, la página visitada, el navegador y el sistema operativo.",
+          "La base jurídica es nuestro interés legítimo en un funcionamiento seguro y fiable del sitio web (art. 6.1.f RGPD). GitHub está certificado conforme al Marco de Privacidad de Datos UE-EE. UU., que garantiza un nivel de protección adecuado para las transferencias a EE. UU. (art. 45 RGPD). Más información en la [declaración de privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+        ]
+      },
+      {
+        "h": "3. Formulario de contacto",
+        "p": [
+          "Si nos escribe mediante el formulario de contacto, tratamos los datos que usted introduce: nombre, correo electrónico, asunto, su mensaje y, según el asunto, la edad de su hijo/a o la fecha deseada de una fiesta. Utilizamos estos datos exclusivamente para responder a su consulta.",
+          "En las consultas sobre una plaza, la base jurídica es la aplicación de medidas precontractuales (art. 6.1.b RGPD); en los demás casos, nuestro interés legítimo en responder a las consultas (art. 6.1.f RGPD).",
+          "El formulario se envía a través del servicio FormSubmit (formsubmit.co), que nos reenvía sus datos por correo electrónico. En este proceso se transmiten a FormSubmit sus datos y su dirección IP. El proveedor no indica dónde están sus servidores, por lo que es posible un tratamiento fuera de la UE. Más información en la [política de privacidad de FormSubmit](https://formsubmit.co/privacy.pdf). Como protección contra el spam, FormSubmit puede mostrar una verificación de seguridad (captcha) antes del envío y utilizar cookies.",
+          "Las consultas sobre plazas libres se envían a anmelden@quijote.at (buzón alojado por World4You Internet Services GmbH, Austria). Todas las demás consultas se envían a quijotekindergruppe@gmail.com (Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; es posible un tratamiento en EE. UU.; Google está certificado conforme al Marco de Privacidad de Datos UE-EE. UU.).",
+          "Si prefiere no usar el formulario, puede escribirnos directamente por correo electrónico en cualquier momento."
+        ]
+      },
+      {
+        "h": "4. Contacto por correo electrónico",
+        "p": [
+          "Si nos escribe por correo electrónico, tratamos su dirección y el contenido de su mensaje para responder a su consulta (art. 6.1.b o f RGPD)."
+        ]
+      },
+      {
+        "h": "5. Tipografías",
+        "p": [
+          "Las tipografías de este sitio web se cargan directamente desde nuestro servidor. No se establece ninguna conexión con servidores de terceros (como Google)."
+        ]
+      },
+      {
+        "h": "6. Cookies y análisis",
+        "p": [
+          "Este sitio web no utiliza cookies propias ni herramientas de análisis o seguimiento. Sobre las posibles cookies al enviar el formulario de contacto, véase el apartado 3."
+        ]
+      },
+      {
+        "h": "7. Enlaces externos",
+        "p": [
+          "Este sitio web contiene enlaces a otros sitios, como Google Maps. Solo al hacer clic en uno de ellos se transmiten datos al proveedor correspondiente, que es responsable del tratamiento que allí se realice."
+        ]
+      },
+      {
+        "h": "8. Plazo de conservación",
+        "p": [
+          "Conservamos las consultas solo el tiempo necesario para tramitarlas. Las consultas que no dan lugar a una relación de cuidado o laboral se eliminan, a más tardar, [12] meses después de la última comunicación, salvo obligaciones legales de conservación."
+        ]
+      },
+      {
+        "h": "9. Sus derechos",
+        "p": [
+          "Usted tiene derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad de los datos y oposición (arts. 15 a 21 RGPD). Para ejercerlos, escríbanos a don@quijote.at.",
+          "Si considera que el tratamiento de sus datos infringe la normativa de protección de datos, puede presentar una reclamación ante la autoridad de control. En Austria es la Datenschutzbehörde (Autoridad de Protección de Datos), Barichgasse 40–42, 1030 Viena, dsb@dsb.gv.at, [www.dsb.gv.at](https://www.dsb.gv.at)."
+        ]
+      }
+    ],
+    "updated": "Última actualización: octubre de 2026"
   },
   "cta": {
     "h": "¿Quiere conocernos?",

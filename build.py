@@ -9,7 +9,10 @@ import shutil
 import sys
 from pathlib import Path
 
+import re
+
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
+from markupsafe import Markup, escape
 
 ROOT = Path(__file__).resolve().parent
 OUT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / "_site"
@@ -46,7 +49,19 @@ def make_env():
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["rich"] = rich_text
     return env
+
+
+def rich_text(text):
+    """Escape text, then turn [label](https://…) into links and line breaks into <br>."""
+    html = str(escape(text))
+    html = re.sub(
+        r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+        lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>',
+        html,
+    )
+    return Markup(html.replace("\n", "<br>\n"))
 
 
 def render_all():

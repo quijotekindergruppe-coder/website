@@ -1,13 +1,27 @@
 {% extends "base.html" %}
+{% set L = t.legal %}
 {% block main %}
 <section class="wrap wrap--narrow section stack stack--lg">
-  <h1 class="h-page">{{ t.legal.h1 }}</h1>
+  <div class="stack stack--sm">
+    <h1 class="h-page">{{ L.h1 }}</h1>
+    <p class="muted">{{ L.lead }}</p>
+  </div>
+  {% if L.note %}<p class="legal__note">{{ L.note }}</p>{% endif %}
   <dl class="legal">
-    {% for r in t.legal.rows %}
-    <div class="legal__row"><dt>{{ r.l }}</dt><dd class="pre">{{ r.v }}</dd></div>
+    {% for r in L.rows %}
+    <div class="legal__row"><dt>{{ r.l }}</dt><dd>{{ r.v | rich }}</dd></div>
     {% endfor %}
   </dl>
-  <h2 class="h-md" id="datenschutz">{{ t.legal.privacyTitle }}</h2>
-  <p>{{ t.legal.privacy }}</p>
+
+  <div class="legal__privacy stack" id="datenschutz">
+    <h2 class="h-lg">{{ L.privacyTitle }}</h2>
+    <p>{{ L.privacyIntro }}</p>
+    {% for s in L.sections %}
+    <h3 class="h-card">{{ s.h }}</h3>
+    {% for para in s.p %}<p>{{ para | rich }}</p>
+    {% endfor %}
+    {% endfor %}
+    <p class="muted small">{{ L.updated }}</p>
+  </div>
 </section>
 {% endblock %}

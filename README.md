@@ -52,8 +52,9 @@ The form is delivered by [FormSubmit](https://formsubmit.co) (free, no account).
    (and forward the bare `quijote.at` to `www.quijote.at`).
 3. Back in Settings → Pages, tick **Enforce HTTPS** once it becomes available.
 
-Before going live: fill in the Impressum and the privacy policy (Datenschutzerklärung),
-and collect photo consent from parents and staff.
+The Impressum and privacy policy live under `legal` in each language file. Placeholders
+in [square brackets] (association name, ZVR number, chair, retention period) still need
+filling in. The German text is the legally binding version.
 
 ## For developers
 
@@ -62,6 +63,9 @@ pip install -r requirements.txt
 python3 build.py          # writes the finished site to _site/
 python3 -m http.server -d _site 8000
 ```
+
+Fonts (Poppins, Nunito; SIL Open Font License) are served from `assets/fonts/` —
+no connection to Google Fonts, as stated in the privacy policy. Keep it that way.
 
 Templates are in `templates/` (Jinja2), styles in `assets/css/style.css`, the
 small script for the phone menu and form routing in `assets/js/main.js`.

@@ -69,7 +69,7 @@
       <label class="field"><span>{{ t.contact.fMsg }} <abbr title="{{ t.ui2.required }}">*</abbr></span>
         <textarea name="message" rows="5" required></textarea>
       </label>
-      <label class="check"><input type="checkbox" name="consent" value="yes" required><span>{{ t.contact.fConsent }}</span></label>
+      <label class="check"><input type="checkbox" name="consent" value="yes" required><span>{{ t.contact.fConsent }} <a href="{{ url('legal') }}#datenschutz" target="_blank">{{ t.contact.privacyLink }}</a></span></label>
       <div class="btn-row">
         <button class="btn btn--primary" type="submit">{{ t.contact.fSend }}</button>
         <p class="small" aria-live="polite">{{ t.contact.goesTo }} <strong id="recipient">{{ f.route[first] }}</strong></p>
