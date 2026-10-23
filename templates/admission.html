@@ -31,11 +31,17 @@
 <section class="wrap section section--tight-top grid grid--2 grid--wide-gap">
   <div>
     <h2 class="h-lg">{{ t.admission.feesTitle }}</h2>
-    <dl class="fees">
-      {% for f in t.admission.fees %}
-      <div class="fees__row"><dt>{{ f.l }}</dt><dd>{{ f.v }}</dd></div>
-      {% endfor %}
-    </dl>
+    {% set H = t.admission.feesHead %}
+    <div class="table-wrap">
+      <table class="fees-table">
+        <thead><tr><th scope="col">{{ H.model }}</th><th scope="col">{{ H.diff }}</th><th scope="col">{{ H.meal }}</th></tr></thead>
+        <tbody>
+          {% for f in site.fees %}
+          <tr><th scope="row">{{ H.days.replace('{n}', f.days | string) }}</th><td>{{ f.diff }} {{ H.perMonth }}</td><td>{{ f.meal }} {{ H.perMonth }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
     <p class="muted small">{{ t.admission.feesNote }}</p>
   </div>
   <div class="panel tone-green stack">

@@ -35,6 +35,14 @@ PAGES = {
 }
 
 
+def has_reviews():
+    return all(texts[l]["reviews"]["items"] for l in LANGS)
+
+
+def active_pages():
+    return {p: v for p, v in PAGES.items() if p != "reviews" or has_reviews()}
+
+
 def page_path(page, lang):
     """Site-relative folder of a page, e.g. 'de/konzept/' or 'en/'."""
     slug = site["pages"][page][lang]
@@ -73,7 +81,7 @@ def render_all():
 
     for lang in LANGS:
         t = texts[lang]
-        for page, (tpl, show_cta) in PAGES.items():
+        for page, (tpl, show_cta) in active_pages().items():
             rel = page_path(page, lang)
             depth = rel.count("/")
             root = "../" * depth
@@ -109,7 +117,7 @@ def render_all():
                     {"code": l, **site["languages"][l], "href": url(page, l), "current": l == lang} for l in LANGS
                 ],
                 "nav_items": [
-                    {"key": p, "label": t["nav"][p], "href": url(p), "current": p == page} for p in site["nav"]
+                    {"key": p, "label": t["nav"][p], "href": url(p), "current": p == page} for p in site["nav"] if p in active_pages()
                 ],
                 "noindex": page == "thanks",
             }
@@ -128,7 +136,7 @@ def render_all():
 
     # robots.txt + sitemap.xml
     base = site["site_url"].rstrip("/")
-    urls = [f"{base}/{page_path(p, l)}" for l in LANGS for p in PAGES if p != "thanks"]
+    urls = [f"{base}/{page_path(p, l)}" for l in LANGS for p in active_pages() if p != "thanks"]
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -138,7 +146,7 @@ def render_all():
     if cname.exists():
         shutil.copy(cname, OUT / "CNAME")
 
-    count = len(LANGS) * len(PAGES)
+    count = len(LANGS) * len(active_pages())
     print(f"Built {count} pages in {len(LANGS)} languages -> {OUT}")
 
 

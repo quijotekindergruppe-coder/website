@@ -190,12 +190,6 @@
       "Betreuerin mit Ausbildung",
       "Köchin"
     ],
-    "bios": [
-      "Leitet gemeinsam mit Mercedes das Vorschulprogramm. [Kurzvorstellung ergänzen]",
-      "Begleitet die Kinder im Alltag und im Vorschulprogramm. [Kurzvorstellung ergänzen]",
-      "[Kurzvorstellung ergänzen: Herkunft, Ausbildung, Lieblingslied im Morgenkreis]",
-      "Kocht viermal pro Woche frisch und in Bio-Qualität für die Kinder. [Name & Foto ergänzen]"
-    ],
     "facts": [
       {
         "n": "2",
@@ -212,7 +206,7 @@
     ],
     "jobsBadge": "Arbeiten bei Quijote",
     "jobsTitle": "Pädagog*in oder Kindergruppenbetreuer*in gesucht",
-    "jobsLead": "15–20 Stunden pro Woche, Bezahlung nach dem Gehaltsschema des Vereins Wiener Kindergruppen. [Aktuelle Ausschreibung prüfen]",
+    "jobsLead": "15–20 Stunden pro Woche, Bezahlung nach dem Gehaltsschema des Vereins Wiener Kindergruppen.",
     "offerTitle": "Wir bieten",
     "offer": [
       "Ein freundliches, professionelles Team",
@@ -230,28 +224,7 @@
   "reviews": {
     "h1": "Erfahrungen von Familien",
     "lead": "Wie erleben Eltern und Kinder Quijote? Hier erzählen Familien aus der Gruppe – in ihrer eigenen Sprache.",
-    "items": [
-      {
-        "q": "[Erfahrungsbericht einer Familie einfügen – zwei bis vier Sätze, z. B. über die Eingewöhnung oder die Zweisprachigkeit.]",
-        "who": "[Vorname], Mama von [Kind]",
-        "lang": "DE"
-      },
-      {
-        "q": "[Testimonio de una familia – dos a cuatro frases.]",
-        "who": "[Nombre], papá de [niño/a]",
-        "lang": "ES"
-      },
-      {
-        "q": "[Erfahrungsbericht einfügen – z. B. über das gemeinsame Kochen oder die Feste.]",
-        "who": "[Vorname], Papa von [Kind]",
-        "lang": "DE"
-      },
-      {
-        "q": "[Add a family testimonial – two to four sentences.]",
-        "who": "[First name], parent since [year]",
-        "lang": "EN"
-      }
-    ],
+    "items": [],
     "share": "Ihr Kind ist bei Quijote? Wir freuen uns über ein paar Sätze zu Ihren Erfahrungen.",
     "shareBtn": "Erfahrung teilen"
   },
@@ -266,7 +239,7 @@
       },
       {
         "h": "Teilplätze",
-        "p": "3 oder 4 Tage pro Woche [Verfügbarkeit prüfen]"
+        "p": "2, 3 oder 4 Tage pro Woche"
       }
     ],
     "stepsTitle": "So läuft die Aufnahme",
@@ -289,32 +262,21 @@
       }
     ],
     "feesTitle": "Kosten",
-    "fees": [
-      {
-        "l": "Elternbeitrag ganzer Platz",
-        "v": "[€ / Monat]"
-      },
-      {
-        "l": "Elternbeitrag Teilplatz",
-        "v": "[€ / Monat]"
-      },
-      {
-        "l": "Essensbeitrag",
-        "v": "[€ / Monat]"
-      },
-      {
-        "l": "Kaution / Einschreibgebühr",
-        "v": "[€]"
-      }
-    ],
-    "feesNote": "Kindergruppen werden von der Stadt Wien gefördert. [Details zur Förderung ergänzen]",
+    "feesNote": "Die Betreuung wird von der Stadt Wien gefördert. Eltern zahlen monatlich einen Differenzbeitrag und einen Essensbeitrag.",
     "parentsTitle": "Mitarbeit als Eltern",
     "parents": [
       "Einmal pro Woche kochen Eltern das Mittagessen",
       "Regelmäßige Elterntreffen (ca. vierteljährlich)",
       "Bettwäsche des eigenen Kindes wöchentlich waschen",
       "Begleitung bei Ausflügen und Mithilfe bei Festen"
-    ]
+    ],
+    "feesHead": {
+      "model": "Tage pro Woche",
+      "diff": "Differenzbeitrag",
+      "meal": "Essensbeitrag",
+      "days": "{n} Tage",
+      "perMonth": "€ / Monat"
+    }
   },
   "faq": {
     "h1": "Häufige Fragen",
@@ -355,7 +317,7 @@
       },
       {
         "q": "Was kostet ein Platz?",
-        "a": "Die aktuellen Beiträge finden Sie unter „Aufnahme“. [Beiträge ergänzen]"
+        "a": "Je nach Modell (2 bis 5 Tage pro Woche) zahlen Eltern monatlich einen Differenzbeitrag von 141 bis 248 € und einen Essensbeitrag von 44 bis 92 €. Alle Beiträge finden Sie unter „Aufnahme“."
       }
     ]
   },
@@ -413,15 +375,7 @@
     "rows": [
       {
         "l": "Medieninhaber und Betreiber",
-        "v": "[Vereinsname laut Vereinsregister]\nGroße Neugasse 11/3\n1040 Wien, Österreich"
-      },
-      {
-        "l": "ZVR-Zahl",
-        "v": "[ZVR-Zahl]"
-      },
-      {
-        "l": "Vertretungsbefugt",
-        "v": "[Vorname Nachname], Obfrau/Obmann"
+        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3\n1040 Wien, Österreich"
       },
       {
         "l": "Kontakt",
@@ -448,10 +402,6 @@
         "v": "Information über die Kindergruppe Quijote, ihr pädagogisches Konzept, das Team und die Aufnahme von Kindern."
       },
       {
-        "l": "Fotos",
-        "v": "Kindergruppe Quijote [sowie Bildquelle der Stockfotos]"
-      },
-      {
         "l": "Haftung für Links",
         "v": "Diese Website enthält Links zu externen Websites (z. B. Google Maps). Für deren Inhalte sind ausschließlich die jeweiligen Betreiber verantwortlich."
       }
@@ -462,7 +412,7 @@
       {
         "h": "1. Verantwortlicher",
         "p": [
-          "[Vereinsname laut Vereinsregister]\nGroße Neugasse 11/3, 1040 Wien\nE-Mail: don@quijote.at"
+          "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Wien\nE-Mail: don@quijote.at"
         ]
       },
       {
@@ -509,7 +459,7 @@
       {
         "h": "8. Speicherdauer",
         "p": [
-          "Wir speichern Anfragen nur so lange, wie es für ihre Bearbeitung nötig ist. Anfragen, aus denen kein Betreuungsverhältnis oder Arbeitsverhältnis entsteht, löschen wir spätestens [12] Monate nach der letzten Kommunikation, sofern keine gesetzlichen Aufbewahrungspflichten bestehen."
+          "Wir speichern Anfragen nur so lange, wie es für ihre Bearbeitung nötig ist. Anfragen, aus denen kein Betreuungsverhältnis oder Arbeitsverhältnis entsteht, löschen wir spätestens 12 Monate nach der letzten Kommunikation, sofern keine gesetzlichen Aufbewahrungspflichten bestehen."
         ]
       },
       {

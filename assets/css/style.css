@@ -229,6 +229,12 @@ abbr[title] { text-decoration: none; color: var(--magenta-dark); }
 .step p { color: var(--ink-2); font-size: 16px; }
 .step__n { width: 44px; height: 44px; border-radius: 999px; background: var(--magenta); color: #fff; display: flex; align-items: center; justify-content: center; font-family: var(--font-head); font-weight: 800; font-size: 21px; }
 .fees { margin: 24px 0 16px; border-top: 2px solid var(--ink); }
+.table-wrap { overflow-x: auto; margin: 24px 0 16px; }
+.fees-table { width: 100%; border-collapse: collapse; border-top: 2px solid var(--ink); font-size: 16px; }
+.fees-table th, .fees-table td { text-align: left; padding: 14px 12px 14px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.fees-table thead th { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); }
+.fees-table tbody th { font-weight: 700; }
+.fees-table td { font-weight: 800; color: var(--magenta-dark); white-space: nowrap; }
 .fees__row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .fees dt { font-weight: 700; }
 .fees dd { margin: 0; font-weight: 800; color: var(--magenta-dark); }

@@ -19,10 +19,10 @@
     "hours": "Mon–Fri · 8:00–16:00"
   },
   "home": {
-    "eyebrow": "Bilingual playgroup · Vienna, 4th district",
+    "eyebrow": "Bilingual daycare · Vienna, 4th district",
     "h1a": "Play, grow and learn –",
     "h1b": "in German and Spanish.",
-    "lead": "Quijote is a small, parent-run playgroup for 14 children aged 18 months to 6 years. Our caregivers are native Spanish speakers, so children grow up with two languages as a natural part of every day.",
+    "lead": "Quijote is a small, parent-run daycare for 14 children aged 18 months to 6 years. Our caregivers are native Spanish speakers, so children grow up with two languages as a natural part of every day.",
     "cta1": "Ask about a place",
     "cta2": "Our concept",
     "heroAlt": "Group room wall: gelb – amarillo, rot – rojo (yellow, red)",
@@ -190,12 +190,6 @@
       "Trained caregiver",
       "Cook"
     ],
-    "bios": [
-      "Runs the pre-school programme together with Mercedes. [Add short bio]",
-      "Supports the children day to day and in the pre-school programme. [Add short bio]",
-      "[Add short bio: background, training, favourite morning-circle song]",
-      "Cooks fresh, organic meals for the children four days a week. [Add name & photo]"
-    ],
     "facts": [
       {
         "n": "2",
@@ -212,7 +206,7 @@
     ],
     "jobsBadge": "Work at Quijote",
     "jobsTitle": "We're looking for an educator or trained caregiver",
-    "jobsLead": "15–20 hours a week, paid according to the salary scheme of the Verein Wiener Kindergruppen. [Check current vacancy]",
+    "jobsLead": "15–20 hours a week, paid according to the salary scheme of the Verein Wiener Kindergruppen.",
     "offerTitle": "We offer",
     "offer": [
       "A friendly, professional team",
@@ -230,28 +224,7 @@
   "reviews": {
     "h1": "What families say",
     "lead": "How do parents and children experience Quijote? Families from the group share their stories – in their own language.",
-    "items": [
-      {
-        "q": "[Erfahrungsbericht einer Familie einfügen – zwei bis vier Sätze.]",
-        "who": "[Vorname], Mama von [Kind]",
-        "lang": "DE"
-      },
-      {
-        "q": "[Testimonio de una familia – dos a cuatro frases.]",
-        "who": "[Nombre], papá de [niño/a]",
-        "lang": "ES"
-      },
-      {
-        "q": "[Erfahrungsbericht einfügen – z. B. über das gemeinsame Kochen.]",
-        "who": "[Vorname], Papa von [Kind]",
-        "lang": "DE"
-      },
-      {
-        "q": "[Add a family testimonial – two to four sentences, e.g. about settling in or growing up bilingual.]",
-        "who": "[First name], parent since [year]",
-        "lang": "EN"
-      }
-    ],
+    "items": [],
     "share": "Is your child at Quijote? We'd love a few sentences about your experience.",
     "shareBtn": "Share your experience"
   },
@@ -266,7 +239,7 @@
       },
       {
         "h": "Part-time places",
-        "p": "3 or 4 days a week [check availability]"
+        "p": "2, 3 or 4 days a week"
       }
     ],
     "stepsTitle": "How admission works",
@@ -289,32 +262,21 @@
       }
     ],
     "feesTitle": "Fees",
-    "fees": [
-      {
-        "l": "Parent fee, full-time",
-        "v": "[€ / month]"
-      },
-      {
-        "l": "Parent fee, part-time",
-        "v": "[€ / month]"
-      },
-      {
-        "l": "Meals",
-        "v": "[€ / month]"
-      },
-      {
-        "l": "Deposit / registration",
-        "v": "[€]"
-      }
-    ],
-    "feesNote": "Playgroups in Vienna are subsidised by the City of Vienna. [Add funding details]",
+    "feesNote": "Care is subsidised by the City of Vienna. Parents pay a monthly parent fee (Differenzbeitrag) and a meal contribution.",
     "parentsTitle": "How parents get involved",
     "parents": [
       "Parents cook lunch once a week",
       "Regular parents' meetings (about quarterly)",
       "Washing your child's bedding weekly",
       "Joining trips and helping at celebrations"
-    ]
+    ],
+    "feesHead": {
+      "model": "Days per week",
+      "diff": "Parent fee (Differenzbeitrag)",
+      "meal": "Meals",
+      "days": "{n} days",
+      "perMonth": "€ / month"
+    }
   },
   "faq": {
     "h1": "Frequently asked questions",
@@ -326,7 +288,7 @@
         "a": "Children from 18 months to 6 years, in one mixed-age group of up to 14 children."
       },
       {
-        "q": "When is the playgroup open?",
+        "q": "When is the daycare open?",
         "a": "Monday to Friday, 8:00 to 16:00. We close around Christmas and Easter; families receive the exact calendar directly."
       },
       {
@@ -355,7 +317,7 @@
       },
       {
         "q": "How much does a place cost?",
-        "a": "You'll find current fees under \"Admission\". [Add fees]"
+        "a": "Depending on the model (2 to 5 days a week), parents pay a monthly parent fee of €141 to €248 plus €44 to €92 for meals. You'll find all fees under \"Admission\"."
       }
     ]
   },
@@ -413,15 +375,7 @@
     "rows": [
       {
         "l": "Media owner and website operator",
-        "v": "[Association name as in the register of associations]\nGroße Neugasse 11/3\n1040 Vienna, Austria"
-      },
-      {
-        "l": "Association register no. (ZVR)",
-        "v": "[ZVR number]"
-      },
-      {
-        "l": "Authorised representative",
-        "v": "[First name Last name], Chair"
+        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3\n1040 Vienna, Austria"
       },
       {
         "l": "Contact",
@@ -429,7 +383,7 @@
       },
       {
         "l": "Purpose of the association",
-        "v": "Running a bilingual (German–Spanish) playgroup for children aged 18 months to 6 years in Vienna."
+        "v": "Running a bilingual (German–Spanish) daycare for children aged 18 months to 6 years in Vienna."
       },
       {
         "l": "Operating organisation",
@@ -437,7 +391,7 @@
       },
       {
         "l": "Supervisory authority",
-        "v": "City of Vienna, MA 11 – Child and Youth Welfare, Playgroups and Childminders Unit"
+        "v": "City of Vienna, MA 11 – Child and Youth Welfare, Day Care Groups and Childminders Unit"
       },
       {
         "l": "Applicable regulations",
@@ -445,11 +399,7 @@
       },
       {
         "l": "Purpose of this website",
-        "v": "Information about the Quijote playgroup, its educational concept, the team and admission of children."
-      },
-      {
-        "l": "Photos",
-        "v": "Kindergruppe Quijote [and source of stock photos]"
+        "v": "Information about the Quijote daycare, its educational concept, the team and admission of children."
       },
       {
         "l": "Liability for links",
@@ -462,7 +412,7 @@
       {
         "h": "1. Controller",
         "p": [
-          "[Association name as in the register of associations]\nGroße Neugasse 11/3, 1040 Vienna\nEmail: don@quijote.at"
+          "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Vienna\nEmail: don@quijote.at"
         ]
       },
       {
@@ -509,7 +459,7 @@
       {
         "h": "8. Retention",
         "p": [
-          "We keep enquiries only as long as needed to handle them. Enquiries that do not lead to a care or employment relationship are deleted no later than [12] months after the last communication, unless statutory retention obligations apply."
+          "We keep enquiries only as long as needed to handle them. Enquiries that do not lead to a care or employment relationship are deleted no later than 12 months after the last communication, unless statutory retention obligations apply."
         ]
       },
       {
@@ -528,7 +478,7 @@
     "btn": "Get in touch"
   },
   "footer": {
-    "tag": "Bilingual playgroup (German · Spanish) in Vienna's 4th district.",
+    "tag": "Bilingual daycare (German · Spanish) in Vienna's 4th district.",
     "visit": "Visit",
     "write": "Write",
     "more": "More",
@@ -536,9 +486,9 @@
     "legal": "Legal notice & privacy"
   },
   "meta": {
-    "siteName": "Quijote Playgroup",
-    "homeTitle": "Quijote – Bilingual Playgroup in Vienna (German · Spanish)",
-    "description": "Bilingual German/Spanish playgroup in Vienna's 4th district for 14 children aged 18 months to 6 years. Parent-run, Mon–Fri 8:00–16:00."
+    "siteName": "Quijote Daycare",
+    "homeTitle": "Quijote – Bilingual Daycare in Vienna (German · Spanish)",
+    "description": "Bilingual German/Spanish daycare in Vienna's 4th district for 14 children aged 18 months to 6 years. Parent-run, Mon–Fri 8:00–16:00."
   },
   "ui2": {
     "skip": "Skip to content",

@@ -190,12 +190,6 @@
       "Maestra con formación",
       "Cocinera"
     ],
-    "bios": [
-      "Dirige el programa preescolar junto con Mercedes. [Añadir presentación breve]",
-      "Acompaña a los niños en el día a día y en el programa preescolar. [Añadir presentación breve]",
-      "[Añadir presentación breve: origen, formación, canción favorita de la ronda]",
-      "Cocina comida fresca y ecológica para los niños cuatro días a la semana. [Añadir nombre y foto]"
-    ],
     "facts": [
       {
         "n": "2",
@@ -212,7 +206,7 @@
     ],
     "jobsBadge": "Trabajar en Quijote",
     "jobsTitle": "Buscamos pedagogo/a o maestro/a con formación",
-    "jobsLead": "15–20 horas por semana, según el esquema salarial del Verein Wiener Kindergruppen. [Verificar oferta actual]",
+    "jobsLead": "15–20 horas por semana, según el esquema salarial del Verein Wiener Kindergruppen.",
     "offerTitle": "Ofrecemos",
     "offer": [
       "Un equipo amable y profesional",
@@ -230,28 +224,7 @@
   "reviews": {
     "h1": "Experiencias de las familias",
     "lead": "¿Cómo viven padres e hijos el Quijote? Aquí cuentan su experiencia familias del grupo, en su propio idioma.",
-    "items": [
-      {
-        "q": "[Erfahrungsbericht einer Familie einfügen – zwei bis vier Sätze.]",
-        "who": "[Vorname], Mama von [Kind]",
-        "lang": "DE"
-      },
-      {
-        "q": "[Añadir testimonio de una familia: dos a cuatro frases, p. ej. sobre la adaptación o el bilingüismo.]",
-        "who": "[Nombre], papá de [niño/a]",
-        "lang": "ES"
-      },
-      {
-        "q": "[Erfahrungsbericht einfügen – z. B. über die Feste.]",
-        "who": "[Vorname], Papa von [Kind]",
-        "lang": "DE"
-      },
-      {
-        "q": "[Add a family testimonial – two to four sentences.]",
-        "who": "[First name], parent since [year]",
-        "lang": "EN"
-      }
-    ],
+    "items": [],
     "share": "¿Tu hijo/a está en Quijote? Nos encantaría leer unas frases sobre su experiencia.",
     "shareBtn": "Compartir experiencia"
   },
@@ -266,7 +239,7 @@
       },
       {
         "h": "Plazas parciales",
-        "p": "3 o 4 días por semana [verificar disponibilidad]"
+        "p": "2, 3 o 4 días por semana"
       }
     ],
     "stepsTitle": "Así funciona la inscripción",
@@ -289,32 +262,21 @@
       }
     ],
     "feesTitle": "Costos",
-    "fees": [
-      {
-        "l": "Cuota de padres, jornada completa",
-        "v": "[€ / mes]"
-      },
-      {
-        "l": "Cuota de padres, plaza parcial",
-        "v": "[€ / mes]"
-      },
-      {
-        "l": "Comida",
-        "v": "[€ / mes]"
-      },
-      {
-        "l": "Depósito / inscripción",
-        "v": "[€]"
-      }
-    ],
-    "feesNote": "Los jardines infantiles en Viena reciben subvención de la Ciudad de Viena. [Añadir detalles]",
+    "feesNote": "El cuidado está subvencionado por la Ciudad de Viena. Los padres pagan cada mes una cuota (Differenzbeitrag) y una contribución para la comida.",
     "parentsTitle": "Participación de los padres",
     "parents": [
       "Los padres cocinan el almuerzo una vez por semana",
       "Reuniones de padres regulares (aprox. trimestrales)",
       "Lavar semanalmente la ropa de cama de su hijo/a",
       "Acompañar excursiones y ayudar en las fiestas"
-    ]
+    ],
+    "feesHead": {
+      "model": "Días por semana",
+      "diff": "Cuota de padres (Differenzbeitrag)",
+      "meal": "Comida",
+      "days": "{n} días",
+      "perMonth": "€ / mes"
+    }
   },
   "faq": {
     "h1": "Preguntas frecuentes",
@@ -355,7 +317,7 @@
       },
       {
         "q": "¿Cuánto cuesta una plaza?",
-        "a": "Encontrará las cuotas actuales en «Inscripción». [Añadir cuotas]"
+        "a": "Según el modelo (de 2 a 5 días por semana), los padres pagan cada mes una cuota de 141 a 248 € y una contribución para la comida de 44 a 92 €. Encontrará todas las cuotas en «Inscripción»."
       }
     ]
   },
@@ -413,15 +375,7 @@
     "rows": [
       {
         "l": "Titular y responsable del sitio web",
-        "v": "[Nombre de la asociación según el registro]\nGroße Neugasse 11/3\n1040 Viena, Austria"
-      },
-      {
-        "l": "N.º de registro (ZVR)",
-        "v": "[Número ZVR]"
-      },
-      {
-        "l": "Representación legal",
-        "v": "[Nombre Apellido], Presidencia"
+        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3\n1040 Viena, Austria"
       },
       {
         "l": "Contacto",
@@ -448,10 +402,6 @@
         "v": "Información sobre el jardín infantil Quijote, su concepto pedagógico, el equipo y la inscripción de niños."
       },
       {
-        "l": "Fotos",
-        "v": "Kindergruppe Quijote [y fuente de las fotos de stock]"
-      },
-      {
         "l": "Responsabilidad por enlaces",
         "v": "Este sitio web contiene enlaces a sitios externos (p. ej., Google Maps). Sus contenidos son responsabilidad exclusiva de sus respectivos operadores."
       }
@@ -462,7 +412,7 @@
       {
         "h": "1. Responsable del tratamiento",
         "p": [
-          "[Nombre de la asociación según el registro]\nGroße Neugasse 11/3, 1040 Viena\nCorreo: don@quijote.at"
+          "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Viena\nCorreo: don@quijote.at"
         ]
       },
       {
@@ -509,7 +459,7 @@
       {
         "h": "8. Plazo de conservación",
         "p": [
-          "Conservamos las consultas solo el tiempo necesario para tramitarlas. Las consultas que no dan lugar a una relación de cuidado o laboral se eliminan, a más tardar, [12] meses después de la última comunicación, salvo obligaciones legales de conservación."
+          "Conservamos las consultas solo el tiempo necesario para tramitarlas. Las consultas que no dan lugar a una relación de cuidado o laboral se eliminan, a más tardar, 12 meses después de la última comunicación, salvo obligaciones legales de conservación."
         ]
       },
       {
