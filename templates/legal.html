@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="wrap wrap--narrow section stack stack--lg">
+  <h1 class="h-page">{{ t.legal.h1 }}</h1>
+  <dl class="legal">
+    {% for r in t.legal.rows %}
+    <div class="legal__row"><dt>{{ r.l }}</dt><dd class="pre">{{ r.v }}</dd></div>
+    {% endfor %}
+  </dl>
+  <h2 class="h-md" id="datenschutz">{{ t.legal.privacyTitle }}</h2>
+  <p>{{ t.legal.privacy }}</p>
+</section>
+{% endblock %}

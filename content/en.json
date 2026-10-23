@@ -1,0 +1,469 @@
+{
+  "ui": {
+    "mainNav": "Main navigation",
+    "footerNav": "More links",
+    "language": "Choose language",
+    "portrait": "Portrait photo"
+  },
+  "nav": {
+    "home": "Home",
+    "concept": "Concept",
+    "team": "Team",
+    "reviews": "Reviews",
+    "admission": "Admission",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "top": {
+    "places": "Places available",
+    "hours": "Mon–Fri · 8:00–16:00"
+  },
+  "home": {
+    "eyebrow": "Bilingual playgroup · Vienna, 4th district",
+    "h1a": "Play, grow and learn –",
+    "h1b": "in German and Spanish.",
+    "lead": "Quijote is a small, parent-run playgroup for 14 children aged 18 months to 6 years. Our caregivers are native Spanish speakers, so children grow up with two languages as a natural part of every day.",
+    "cta1": "Ask about a place",
+    "cta2": "Our concept",
+    "heroAlt": "Group room wall: gelb – amarillo, rot – rojo (yellow, red)",
+    "facts": [
+      {
+        "n": "14",
+        "l": "children in one group"
+      },
+      {
+        "n": "18 m – 6 y",
+        "l": "mixed ages"
+      },
+      {
+        "n": "1 : 7",
+        "l": "staff-to-child ratio"
+      },
+      {
+        "n": "8–16",
+        "l": "Monday to Friday"
+      }
+    ],
+    "pillarsTitle": "What makes Quijote special",
+    "pillars": [
+      {
+        "h": "Two languages, every day",
+        "p": "In morning circle, in songs, at the table: Spanish and German are everyday languages here. Children learn through play, and German gets focused support for a smooth start at school."
+      },
+      {
+        "h": "Small group, close bonds",
+        "p": "14 children, three permanent caregivers, always two in the room. Older and younger children learn from each other in a mixed-age group."
+      },
+      {
+        "h": "Run by parents",
+        "p": "Quijote is a parents' association. We cook once a week, meet regularly and shape the group together with the team."
+      }
+    ],
+    "dayTitle": "A day at Quijote",
+    "dayLink": "More about our concept",
+    "galleryTitle": "Take a look inside",
+    "gallery": [
+      "Our cloakroom",
+      "Books in Spanish and German",
+      "The tree in our group room",
+      "Painting and craft corner",
+      "\"We're in the park – Estamos en el parque\"",
+      "The children's artwork"
+    ],
+    "reviewsTitle": "What parents say",
+    "reviewsLink": "All reviews"
+  },
+  "concept": {
+    "h1": "Childhood is a life stage of its own – and of equal value.",
+    "lead": "We follow the situational approach and the Vienna Education Plan. Every child is supported in their individuality and creativity – with respect, warmth and without authoritarian rules.",
+    "blocks": [
+      {
+        "h": "How we see children",
+        "p": "Children are active, creative people. We take their feelings, ideas, fears, wishes and questions seriously, talk them through and offer ways to work through them."
+      },
+      {
+        "h": "Bilingual every day",
+        "p": "We speak with the children in both languages. Songs, rhymes, finger games and books build vocabulary in Spanish and German. Two years before school we start observing language development closely."
+      },
+      {
+        "h": "Free play",
+        "p": "In play, children discover what they can do. We hold back, observe carefully and keep re-arranging rooms and materials around what we see."
+      },
+      {
+        "h": "Solving conflicts",
+        "p": "We guide everyday conflicts openly and look for solutions that are fair to both sides – the basis for a strong, balanced self-confidence."
+      },
+      {
+        "h": "Movement & outdoors",
+        "p": "Every day we head to nearby Rubenspark. Add dance, music, weekly yoga and monthly trips to museums, theatre or the zoo."
+      },
+      {
+        "h": "Healthy food",
+        "p": "Our cook prepares fresh meals four days a week; on the fifth, parents cook. Wholesome, organic food, plus a weekly organic fruit and veg box."
+      },
+      {
+        "h": "Gentle settling-in",
+        "p": "We follow the Berlin settling-in model: step by step, together with a familiar parent or carer."
+      },
+      {
+        "h": "Pre-school",
+        "p": "In the last year before school there is a pre-school programme every Wednesday with stories, experiments, pre-writing exercises and movement games."
+      },
+      {
+        "h": "Open to all",
+        "p": "Quijote has no religious affiliation. We celebrate St Martin, St Nicholas or Easter as traditions – with respect for every family."
+      }
+    ],
+    "routineTitle": "Our daily routine",
+    "routineNote": "Clear rituals give children security – every transition is announced in advance.",
+    "routine": [
+      {
+        "time": "8:00",
+        "l": "Arrival & settling, snack brought from home"
+      },
+      {
+        "time": "10:00",
+        "l": "Morning circle with songs in Spanish and German"
+      },
+      {
+        "time": "then",
+        "l": "Park time & fresh air"
+      },
+      {
+        "time": "12:00",
+        "l": "Freshly cooked lunch"
+      },
+      {
+        "time": "13:00",
+        "l": "Rest time, activity of the day & free play"
+      },
+      {
+        "time": "15:00",
+        "l": "Afternoon snack"
+      },
+      {
+        "time": "15:30–16:00",
+        "l": "Free play & pick-up"
+      }
+    ],
+    "weekTitle": "Our week",
+    "week": [
+      {
+        "d": "Monday",
+        "a": "Yoga"
+      },
+      {
+        "d": "Tuesday",
+        "a": "Book day"
+      },
+      {
+        "d": "Wednesday",
+        "a": "Music & dance"
+      },
+      {
+        "d": "Thursday",
+        "a": "Toy day"
+      },
+      {
+        "d": "Friday",
+        "a": "Crafts"
+      }
+    ],
+    "yearTitle": "Celebrations through the year",
+    "festivals": [
+      "Pumpkin day",
+      "Lantern festival",
+      "St Nicholas",
+      "Christmas party",
+      "Carnival",
+      "Easter",
+      "Summer party"
+    ],
+    "yearNote": "Plus regular parents' meetings, team days and closures around Christmas and Easter. Families receive the current calendar directly."
+  },
+  "team": {
+    "h1": "Three permanent caregivers who know every child.",
+    "lead": "Our team are native Spanish speakers with very good German. All are fully trained and keep learning through regular courses and supervision.",
+    "roles": [
+      "Educator",
+      "Trained caregiver",
+      "Trained caregiver",
+      "Cook"
+    ],
+    "bios": [
+      "Runs the pre-school programme together with Mercedes. [Add short bio]",
+      "Supports the children day to day and in the pre-school programme. [Add short bio]",
+      "[Add short bio: background, training, favourite morning-circle song]",
+      "Cooks fresh, organic meals for the children four days a week. [Add name & photo]"
+    ],
+    "facts": [
+      {
+        "n": "2",
+        "l": "caregivers are always in the group at the same time."
+      },
+      {
+        "n": "1 : 7",
+        "l": "staff-to-child ratio with at most 14 children."
+      },
+      {
+        "n": "+",
+        "l": "Our own pool of substitutes, so familiar faces cover holidays and sick days."
+      }
+    ],
+    "jobsBadge": "Work at Quijote",
+    "jobsTitle": "We're looking for an educator or trained caregiver",
+    "jobsLead": "15–20 hours a week, paid according to the salary scheme of the Verein Wiener Kindergruppen. [Check current vacancy]",
+    "offerTitle": "We offer",
+    "offer": [
+      "A friendly, professional team",
+      "Further training and courses",
+      "Room for your strengths",
+      "A family atmosphere"
+    ],
+    "seekTitle": "We're looking for",
+    "seek": [
+      "Training as an educator or caregiver",
+      "Native Spanish, very good German",
+      "Music, dance or art – and lots of humour"
+    ]
+  },
+  "reviews": {
+    "h1": "What families say",
+    "lead": "How do parents and children experience Quijote? Families from the group share their stories – in their own language.",
+    "items": [
+      {
+        "q": "[Erfahrungsbericht einer Familie einfügen – zwei bis vier Sätze.]",
+        "who": "[Vorname], Mama von [Kind]",
+        "lang": "DE"
+      },
+      {
+        "q": "[Testimonio de una familia – dos a cuatro frases.]",
+        "who": "[Nombre], papá de [niño/a]",
+        "lang": "ES"
+      },
+      {
+        "q": "[Erfahrungsbericht einfügen – z. B. über das gemeinsame Kochen.]",
+        "who": "[Vorname], Papa von [Kind]",
+        "lang": "DE"
+      },
+      {
+        "q": "[Add a family testimonial – two to four sentences, e.g. about settling in or growing up bilingual.]",
+        "who": "[First name], parent since [year]",
+        "lang": "EN"
+      }
+    ],
+    "share": "Is your child at Quijote? We'd love a few sentences about your experience.",
+    "shareBtn": "Share your experience"
+  },
+  "admission": {
+    "h1": "Admission & fees",
+    "lead": "We welcome enquiries all year round. Here's everything about available places, how admission works and how parents get involved.",
+    "placesTitle": "For children from 18 months",
+    "places": [
+      {
+        "h": "Full-time places",
+        "p": "Monday to Friday, 8:00–16:00"
+      },
+      {
+        "h": "Part-time places",
+        "p": "3 or 4 days a week [check availability]"
+      }
+    ],
+    "stepsTitle": "How admission works",
+    "steps": [
+      {
+        "h": "Send an enquiry",
+        "p": "Email anmelden@quijote.at with your child's age and preferred start date."
+      },
+      {
+        "h": "Get to know us",
+        "p": "We invite you to visit and meet the group, rooms and team."
+      },
+      {
+        "h": "Offer & contract",
+        "p": "If a place is free, you receive the care contract and association documents."
+      },
+      {
+        "h": "Settling in",
+        "p": "Your child settles in following the Berlin model, with you by their side."
+      }
+    ],
+    "feesTitle": "Fees",
+    "fees": [
+      {
+        "l": "Parent fee, full-time",
+        "v": "[€ / month]"
+      },
+      {
+        "l": "Parent fee, part-time",
+        "v": "[€ / month]"
+      },
+      {
+        "l": "Meals",
+        "v": "[€ / month]"
+      },
+      {
+        "l": "Deposit / registration",
+        "v": "[€]"
+      }
+    ],
+    "feesNote": "Playgroups in Vienna are subsidised by the City of Vienna. [Add funding details]",
+    "parentsTitle": "How parents get involved",
+    "parents": [
+      "Parents cook lunch once a week",
+      "Regular parents' meetings (about quarterly)",
+      "Washing your child's bedding weekly",
+      "Joining trips and helping at celebrations"
+    ]
+  },
+  "faq": {
+    "h1": "Frequently asked questions",
+    "lead": "The key answers at a glance. Didn't find yours? Just write to us.",
+    "more": "Still have questions?",
+    "items": [
+      {
+        "q": "What ages is Quijote for?",
+        "a": "Children from 18 months to 6 years, in one mixed-age group of up to 14 children."
+      },
+      {
+        "q": "When is the playgroup open?",
+        "a": "Monday to Friday, 8:00 to 16:00. We close around Christmas and Easter; families receive the exact calendar directly."
+      },
+      {
+        "q": "Does my child need to speak Spanish?",
+        "a": "No. Most children come from bilingual families, but Spanish isn't a requirement. Children pick it up through play – and German gets focused support."
+      },
+      {
+        "q": "What does \"parent-run\" mean?",
+        "a": "Quijote is a parents' association: parents make decisions together, cook once a week and help with celebrations and outings."
+      },
+      {
+        "q": "What do the children eat?",
+        "a": "Children bring a morning snack from home (no sweets). Lunch and afternoon snack are provided – freshly cooked, wholesome and organic."
+      },
+      {
+        "q": "How does settling in work?",
+        "a": "We use the Berlin model: your child gets to know the group with a familiar parent or carer, and time apart grows step by step."
+      },
+      {
+        "q": "Where do the children play outside?",
+        "a": "We don't have our own garden, but we go to Rubenspark, just a few minutes' walk away, every day – plus trips to the Prater or Wienerberg."
+      },
+      {
+        "q": "Do you prepare children for school?",
+        "a": "Yes. In the compulsory kindergarten year there is a pre-school programme every Wednesday from 13:00 to 14:00, with extra activities during the week."
+      },
+      {
+        "q": "How much does a place cost?",
+        "a": "You'll find current fees under \"Admission\". [Add fees]"
+      }
+    ]
+  },
+  "contact": {
+    "h1": "We'd love to hear from you!",
+    "lead": "Questions about places, arranging a visit, or just saying hello – drop us a line.",
+    "cards": [
+      {
+        "l": "Address",
+        "v": "Große Neugasse 11/3\n1040 Vienna",
+        "mail": false
+      },
+      {
+        "l": "Available places",
+        "v": "anmelden@quijote.at",
+        "mail": true
+      },
+      {
+        "l": "General",
+        "v": "don@quijote.at",
+        "mail": true
+      },
+      {
+        "l": "Job applications",
+        "v": "bewerbung@quijote.at",
+        "mail": true
+      }
+    ],
+    "mapLabel": "Entrance at Große Neugasse 11, 1040 Vienna",
+    "mapHint": "Go through the big wooden gate, then look for door no. 3 with the two donkeys.",
+    "mapLink": "Open in Google Maps",
+    "formTitle": "Send a message",
+    "fName": "Your name",
+    "fEmail": "Email",
+    "fTopic": "What's it about?",
+    "fChild": "Child's age",
+    "fMsg": "Message",
+    "topics": {
+      "place": "Available place",
+      "visit": "Visit",
+      "party": "Reserve for party",
+      "job": "Job application",
+      "other": "Other"
+    },
+    "fPartyDate": "Preferred party date",
+    "goesTo": "Your message goes to",
+    "fConsent": "I agree that my details will be used to answer my enquiry.",
+    "fSend": "Send message"
+  },
+  "legal": {
+    "h1": "Legal notice",
+    "rows": [
+      {
+        "l": "Playgroup",
+        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Vienna"
+      },
+      {
+        "l": "Email",
+        "v": "don@quijote.at"
+      },
+      {
+        "l": "Operator",
+        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Vienna\nZVR: 859337619"
+      },
+      {
+        "l": "Represented by",
+        "v": "[Chair of the parents' association]"
+      },
+      {
+        "l": "Website",
+        "v": "admin@quijote.at"
+      }
+    ],
+    "privacyTitle": "Privacy",
+    "privacy": "[Add privacy policy: what data the contact form collects, how long it is kept, and your rights under the GDPR. Note: the contact form is delivered by email via the FormSubmit service (formsubmit.co); fonts are loaded from Google Fonts.]"
+  },
+  "cta": {
+    "h": "Fancy getting to know us?",
+    "p": "Write to us – we're happy to invite you for a visit to the group.",
+    "btn": "Get in touch"
+  },
+  "footer": {
+    "tag": "Bilingual playgroup (German · Spanish) in Vienna's 4th district.",
+    "visit": "Visit",
+    "write": "Write",
+    "more": "More",
+    "jobs": "Jobs",
+    "legal": "Legal notice & privacy"
+  },
+  "meta": {
+    "siteName": "Quijote Playgroup",
+    "homeTitle": "Quijote – Bilingual Playgroup in Vienna (German · Spanish)",
+    "description": "Bilingual German/Spanish playgroup in Vienna's 4th district for 14 children aged 18 months to 6 years. Parent-run, Mon–Fri 8:00–16:00."
+  },
+  "ui2": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "required": "Required",
+    "newTab": "opens in a new tab"
+  },
+  "thanks": {
+    "title": "Thanks for your message!",
+    "text": "We'll get back to you as soon as we can – usually within a week.",
+    "back": "Back to the homepage"
+  },
+  "notFound": {
+    "title": "This page doesn't exist",
+    "text": "The address may have changed. Here's the way back:",
+    "back": "Go to the homepage"
+  }
+}

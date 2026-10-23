@@ -1,0 +1,469 @@
+{
+  "ui": {
+    "mainNav": "Navegación principal",
+    "footerNav": "Más enlaces",
+    "language": "Elegir idioma",
+    "portrait": "Foto de retrato"
+  },
+  "nav": {
+    "home": "Inicio",
+    "concept": "Concepto",
+    "team": "Equipo",
+    "reviews": "Opiniones",
+    "admission": "Inscripción",
+    "faq": "Preguntas",
+    "contact": "Contacto"
+  },
+  "top": {
+    "places": "Plazas libres disponibles",
+    "hours": "Lun–Vie · 8:00–16:00"
+  },
+  "home": {
+    "eyebrow": "Jardín infantil bilingüe · Viena, distrito 4",
+    "h1a": "Jugar, crecer y aprender –",
+    "h1b": "en alemán y en español.",
+    "lead": "Quijote es un pequeño jardín infantil autogestionado por los padres, para 14 niños de 18 meses a 6 años. Nuestras maestras tienen el español como lengua materna, así los niños crecen con dos idiomas de forma natural.",
+    "cta1": "Solicitar plaza",
+    "cta2": "Nuestro concepto",
+    "heroAlt": "Pared de la sala: gelb – amarillo, rot – rojo",
+    "facts": [
+      {
+        "n": "14",
+        "l": "niños en un solo grupo"
+      },
+      {
+        "n": "18 m – 6 a",
+        "l": "edades mixtas"
+      },
+      {
+        "n": "1 : 7",
+        "l": "maestras por niño"
+      },
+      {
+        "n": "8–16 h",
+        "l": "de lunes a viernes"
+      }
+    ],
+    "pillarsTitle": "Lo que hace especial a Quijote",
+    "pillars": [
+      {
+        "h": "Dos idiomas cada día",
+        "p": "En la ronda de la mañana, cantando, en la mesa: el español y el alemán son idiomas de todos los días. Los niños aprenden jugando, y el alemán se fomenta especialmente para un buen comienzo escolar."
+      },
+      {
+        "h": "Grupo pequeño, mucha cercanía",
+        "p": "14 niños, tres maestras fijas, siempre dos presentes. Grandes y pequeños aprenden unos de otros en un grupo de edades mixtas."
+      },
+      {
+        "h": "Gestionado por los padres",
+        "p": "Quijote es una asociación de padres. Cocinamos una vez por semana, nos reunimos con regularidad y damos forma al grupo junto con el equipo."
+      }
+    ],
+    "dayTitle": "Un día en Quijote",
+    "dayLink": "Más sobre el concepto",
+    "galleryTitle": "Una mirada al interior",
+    "gallery": [
+      "Nuestro guardarropa",
+      "Libros en español y alemán",
+      "El árbol de nuestra sala",
+      "Rincón de pintura y manualidades",
+      "«Wir sind im Park – Estamos en el parque»",
+      "Obras de arte de los niños"
+    ],
+    "reviewsTitle": "Lo que dicen las familias",
+    "reviewsLink": "Todas las opiniones"
+  },
+  "concept": {
+    "h1": "La niñez es una etapa de la vida propia y de igual valor.",
+    "lead": "Trabajamos según el enfoque situacional y el Plan Educativo de Viena. Acompañamos a cada niño en su individualidad y creatividad, con respeto, cariño y sin autoritarismo.",
+    "blocks": [
+      {
+        "h": "Nuestra visión del niño",
+        "p": "Los niños son seres activos y creativos. Tomamos en serio sus sentimientos, ideas, miedos, deseos y preguntas, los conversamos y ofrecemos maneras de elaborarlos."
+      },
+      {
+        "h": "Bilingüismo",
+        "p": "La comunicación con los niños es bilingüe. Canciones, rimas, juegos de dedos y libros amplían el vocabulario en ambos idiomas. Dos años antes de la escuela observamos de cerca su desarrollo lingüístico."
+      },
+      {
+        "h": "Juego libre",
+        "p": "Jugando, los niños descubren lo que son capaces de hacer. Acompañamos con discreción, observamos con atención y renovamos espacios y materiales."
+      },
+      {
+        "h": "Resolver conflictos",
+        "p": "Acompañamos los conflictos cotidianos abiertamente y buscamos soluciones justas para ambas partes: la base de una personalidad fuerte y segura de sí misma."
+      },
+      {
+        "h": "Movimiento y aire libre",
+        "p": "Cada día vamos al cercano Rubenspark. Además: baile, música, yoga una vez por semana y excursiones mensuales a museos, teatro o al zoológico."
+      },
+      {
+        "h": "Comida sana",
+        "p": "Nuestra cocinera prepara comida fresca cuatro días a la semana; el quinto cocinan los padres. Integral y ecológica, con una caja semanal de frutas y verduras bio."
+      },
+      {
+        "h": "Adaptación suave",
+        "p": "Seguimos el modelo de adaptación de Berlín: paso a paso, junto a una persona de confianza."
+      },
+      {
+        "h": "Preescolar",
+        "p": "En el último año antes de la escuela hay un programa preescolar cada miércoles, con cuentos, experimentos, ejercicios de grafomotricidad y juegos de movimiento."
+      },
+      {
+        "h": "Abiertos a todos",
+        "p": "Quijote no tiene orientación religiosa. Celebramos San Martín, San Nicolás o Pascua como tradiciones, con respeto hacia todas las familias."
+      }
+    ],
+    "routineTitle": "Nuestra rutina diaria",
+    "routineNote": "Los rituales claros dan seguridad: cada transición se anuncia con antelación.",
+    "routine": [
+      {
+        "time": "8:00",
+        "l": "Llegada y orientación, merienda traída de casa"
+      },
+      {
+        "time": "10:00",
+        "l": "Ronda de la mañana con canciones en español y alemán"
+      },
+      {
+        "time": "después",
+        "l": "Parque y movimiento al aire libre"
+      },
+      {
+        "time": "12:00",
+        "l": "Almuerzo recién cocinado"
+      },
+      {
+        "time": "13:00",
+        "l": "Descanso, actividad del día y juego libre"
+      },
+      {
+        "time": "15:00",
+        "l": "Merienda de la tarde"
+      },
+      {
+        "time": "15:30–16:00",
+        "l": "Juego libre y recogida"
+      }
+    ],
+    "weekTitle": "Nuestra semana",
+    "week": [
+      {
+        "d": "Lunes",
+        "a": "Yoga"
+      },
+      {
+        "d": "Martes",
+        "a": "Día del libro"
+      },
+      {
+        "d": "Miércoles",
+        "a": "Música y baile"
+      },
+      {
+        "d": "Jueves",
+        "a": "Día del juguete"
+      },
+      {
+        "d": "Viernes",
+        "a": "Manualidades"
+      }
+    ],
+    "yearTitle": "Fiestas del año",
+    "festivals": [
+      "Día de la calabaza",
+      "Fiesta de los farolitos",
+      "San Nicolás",
+      "Fiesta de Navidad",
+      "Carnaval",
+      "Pascua",
+      "Fiesta de verano"
+    ],
+    "yearNote": "Además, reuniones de padres regulares, reuniones de equipo y días de cierre en Navidad y Pascua. Las familias reciben el calendario actual directamente."
+  },
+  "team": {
+    "h1": "Tres maestras fijas que conocen a cada niño.",
+    "lead": "Nuestro equipo tiene el español como lengua materna y habla muy bien alemán. Todas tienen formación completa y se capacitan con regularidad, con supervisión profesional.",
+    "roles": [
+      "Pedagoga",
+      "Maestra con formación",
+      "Maestra con formación",
+      "Cocinera"
+    ],
+    "bios": [
+      "Dirige el programa preescolar junto con Mercedes. [Añadir presentación breve]",
+      "Acompaña a los niños en el día a día y en el programa preescolar. [Añadir presentación breve]",
+      "[Añadir presentación breve: origen, formación, canción favorita de la ronda]",
+      "Cocina comida fresca y ecológica para los niños cuatro días a la semana. [Añadir nombre y foto]"
+    ],
+    "facts": [
+      {
+        "n": "2",
+        "l": "maestras están siempre presentes al mismo tiempo."
+      },
+      {
+        "n": "1 : 7",
+        "l": "maestras por niño, con un máximo de 14 niños."
+      },
+      {
+        "n": "+",
+        "l": "Un grupo propio de suplentes, para que en vacaciones o enfermedad haya caras conocidas."
+      }
+    ],
+    "jobsBadge": "Trabajar en Quijote",
+    "jobsTitle": "Buscamos pedagogo/a o maestro/a con formación",
+    "jobsLead": "15–20 horas por semana, según el esquema salarial del Verein Wiener Kindergruppen. [Verificar oferta actual]",
+    "offerTitle": "Ofrecemos",
+    "offer": [
+      "Un equipo amable y profesional",
+      "Formación continua y cursos",
+      "Espacio para tus fortalezas",
+      "Un ambiente familiar"
+    ],
+    "seekTitle": "Buscamos",
+    "seek": [
+      "Formación en pedagogía o como Betreuer/in",
+      "Español nativo y muy buen alemán",
+      "Música, baile o arte – y mucho humor"
+    ]
+  },
+  "reviews": {
+    "h1": "Experiencias de las familias",
+    "lead": "¿Cómo viven padres e hijos el Quijote? Aquí cuentan su experiencia familias del grupo, en su propio idioma.",
+    "items": [
+      {
+        "q": "[Erfahrungsbericht einer Familie einfügen – zwei bis vier Sätze.]",
+        "who": "[Vorname], Mama von [Kind]",
+        "lang": "DE"
+      },
+      {
+        "q": "[Añadir testimonio de una familia: dos a cuatro frases, p. ej. sobre la adaptación o el bilingüismo.]",
+        "who": "[Nombre], papá de [niño/a]",
+        "lang": "ES"
+      },
+      {
+        "q": "[Erfahrungsbericht einfügen – z. B. über die Feste.]",
+        "who": "[Vorname], Papa von [Kind]",
+        "lang": "DE"
+      },
+      {
+        "q": "[Add a family testimonial – two to four sentences.]",
+        "who": "[First name], parent since [year]",
+        "lang": "EN"
+      }
+    ],
+    "share": "¿Tu hijo/a está en Quijote? Nos encantaría leer unas frases sobre su experiencia.",
+    "shareBtn": "Compartir experiencia"
+  },
+  "admission": {
+    "h1": "Inscripción y costos",
+    "lead": "Recibimos solicitudes durante todo el año. Aquí encontrará todo sobre las plazas libres, el proceso y la participación en la asociación.",
+    "placesTitle": "Para niños desde 18 meses",
+    "places": [
+      {
+        "h": "Plazas de jornada completa",
+        "p": "De lunes a viernes, 8:00–16:00"
+      },
+      {
+        "h": "Plazas parciales",
+        "p": "3 o 4 días por semana [verificar disponibilidad]"
+      }
+    ],
+    "stepsTitle": "Así funciona la inscripción",
+    "steps": [
+      {
+        "h": "Enviar solicitud",
+        "p": "Escriba a anmelden@quijote.at indicando la edad de su hijo/a y la fecha de inicio deseada."
+      },
+      {
+        "h": "Conocernos",
+        "p": "Le invitamos a conocer en persona el grupo, los espacios y el equipo."
+      },
+      {
+        "h": "Confirmación y contrato",
+        "p": "Si hay plaza, recibirá el contrato de cuidado y los documentos de la asociación."
+      },
+      {
+        "h": "Adaptación",
+        "p": "Su hijo/a se adapta según el modelo de Berlín, acompañado/a por usted."
+      }
+    ],
+    "feesTitle": "Costos",
+    "fees": [
+      {
+        "l": "Cuota de padres, jornada completa",
+        "v": "[€ / mes]"
+      },
+      {
+        "l": "Cuota de padres, plaza parcial",
+        "v": "[€ / mes]"
+      },
+      {
+        "l": "Comida",
+        "v": "[€ / mes]"
+      },
+      {
+        "l": "Depósito / inscripción",
+        "v": "[€]"
+      }
+    ],
+    "feesNote": "Los jardines infantiles en Viena reciben subvención de la Ciudad de Viena. [Añadir detalles]",
+    "parentsTitle": "Participación de los padres",
+    "parents": [
+      "Los padres cocinan el almuerzo una vez por semana",
+      "Reuniones de padres regulares (aprox. trimestrales)",
+      "Lavar semanalmente la ropa de cama de su hijo/a",
+      "Acompañar excursiones y ayudar en las fiestas"
+    ]
+  },
+  "faq": {
+    "h1": "Preguntas frecuentes",
+    "lead": "Las respuestas más importantes de un vistazo. ¿No encuentra la suya? Escríbanos.",
+    "more": "¿Más preguntas?",
+    "items": [
+      {
+        "q": "¿Para qué edades es Quijote?",
+        "a": "Para niños de 18 meses a 6 años, en un único grupo de edades mixtas con un máximo de 14 niños."
+      },
+      {
+        "q": "¿Cuál es el horario?",
+        "a": "De lunes a viernes, de 8:00 a 16:00. Cerramos en Navidad y Pascua; las familias reciben el calendario exacto directamente."
+      },
+      {
+        "q": "¿Mi hijo/a tiene que hablar español?",
+        "a": "No. La mayoría de los niños vienen de familias bilingües, pero el español no es requisito. Lo aprenden jugando, y el alemán se fomenta especialmente."
+      },
+      {
+        "q": "¿Qué significa «autogestionado por los padres»?",
+        "a": "Quijote es una asociación de padres: las decisiones se toman en conjunto, los padres cocinan una vez por semana y ayudan en fiestas y excursiones."
+      },
+      {
+        "q": "¿Qué comen los niños?",
+        "a": "La merienda de la mañana se trae de casa (sin dulces). El almuerzo y la merienda de la tarde se preparan aquí: comida fresca, integral y ecológica."
+      },
+      {
+        "q": "¿Cómo es la adaptación?",
+        "a": "Seguimos el modelo de Berlín: su hijo/a conoce el grupo junto a una persona de confianza y los tiempos de separación aumentan poco a poco."
+      },
+      {
+        "q": "¿Dónde juegan al aire libre?",
+        "a": "No tenemos jardín propio, pero vamos cada día al Rubenspark, a pocos minutos a pie, además de excursiones al Prater o al Wienerberg."
+      },
+      {
+        "q": "¿Hay preparación para la escuela?",
+        "a": "Sí. En el año obligatorio de jardín hay un programa preescolar cada miércoles de 13:00 a 14:00, con actividades adicionales durante la semana."
+      },
+      {
+        "q": "¿Cuánto cuesta una plaza?",
+        "a": "Encontrará las cuotas actuales en «Inscripción». [Añadir cuotas]"
+      }
+    ]
+  },
+  "contact": {
+    "h1": "¡Nos alegra saber de usted!",
+    "lead": "Preguntas sobre plazas, una visita o simplemente saludar: escríbanos.",
+    "cards": [
+      {
+        "l": "Dirección",
+        "v": "Große Neugasse 11/3\n1040 Viena",
+        "mail": false
+      },
+      {
+        "l": "Plazas libres",
+        "v": "anmelden@quijote.at",
+        "mail": true
+      },
+      {
+        "l": "General",
+        "v": "don@quijote.at",
+        "mail": true
+      },
+      {
+        "l": "Candidaturas",
+        "v": "bewerbung@quijote.at",
+        "mail": true
+      }
+    ],
+    "mapLabel": "Entrada en Große Neugasse 11, 1040 Viena",
+    "mapHint": "Entre por el gran portón de madera y busque la puerta n.º 3 con los dos burritos.",
+    "mapLink": "Abrir en Google Maps",
+    "formTitle": "Escribir un mensaje",
+    "fName": "Su nombre",
+    "fEmail": "Correo electrónico",
+    "fTopic": "¿Sobre qué?",
+    "fChild": "Edad del niño/a",
+    "fMsg": "Mensaje",
+    "topics": {
+      "place": "Plaza libre",
+      "visit": "Visita",
+      "party": "Reservar para una fiesta",
+      "job": "Candidatura",
+      "other": "Otro"
+    },
+    "fPartyDate": "Fecha deseada de la fiesta",
+    "goesTo": "Su mensaje se enviará a",
+    "fConsent": "Acepto que mis datos se utilicen para responder a mi consulta.",
+    "fSend": "Enviar mensaje"
+  },
+  "legal": {
+    "h1": "Aviso legal",
+    "rows": [
+      {
+        "l": "Jardín infantil",
+        "v": "Kindergruppe Quijote\nGroße Neugasse 11/3, 1040 Viena"
+      },
+      {
+        "l": "Correo",
+        "v": "don@quijote.at"
+      },
+      {
+        "l": "Entidad responsable",
+        "v": "Verein Wiener Kindergruppen\nStuckgasse 8/3, 1070 Viena\nZVR: 859337619"
+      },
+      {
+        "l": "Representación",
+        "v": "[Presidencia de la asociación de padres]"
+      },
+      {
+        "l": "Sitio web",
+        "v": "admin@quijote.at"
+      }
+    ],
+    "privacyTitle": "Protección de datos",
+    "privacy": "[Añadir política de privacidad: qué datos recoge el formulario, cuánto tiempo se guardan y los derechos según el RGPD. Nota: el formulario se envía por correo mediante el servicio FormSubmit (formsubmit.co); las fuentes se cargan desde Google Fonts.]"
+  },
+  "cta": {
+    "h": "¿Quiere conocernos?",
+    "p": "Escríbanos: con gusto le invitamos a visitar el grupo.",
+    "btn": "Contactar"
+  },
+  "footer": {
+    "tag": "Jardín infantil bilingüe (alemán · español) en el distrito 4 de Viena.",
+    "visit": "Visítenos",
+    "write": "Escríbanos",
+    "more": "Más",
+    "jobs": "Empleo",
+    "legal": "Aviso legal y privacidad"
+  },
+  "meta": {
+    "siteName": "Jardín infantil Quijote",
+    "homeTitle": "Quijote – Jardín infantil bilingüe en Viena (alemán · español)",
+    "description": "Jardín infantil bilingüe alemán/español en el distrito 4 de Viena para 14 niños de 18 meses a 6 años. Gestionado por los padres, lun–vie 8–16 h."
+  },
+  "ui2": {
+    "skip": "Saltar al contenido",
+    "menu": "Menú",
+    "required": "Obligatorio",
+    "newTab": "se abre en una pestaña nueva"
+  },
+  "thanks": {
+    "title": "¡Gracias por su mensaje!",
+    "text": "Le responderemos lo antes posible, normalmente en menos de una semana.",
+    "back": "Volver al inicio"
+  },
+  "notFound": {
+    "title": "Esta página no existe",
+    "text": "Puede que la dirección haya cambiado. Vuelva aquí:",
+    "back": "Ir al inicio"
+  }
+}

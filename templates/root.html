@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quijote – Kindergruppe · Jardín infantil</title>
+<link rel="canonical" href="{{ site.site_url }}/{{ page_path('home', site.default_lang) }}">
+{% for l in site.languages %}
+<link rel="alternate" hreflang="{{ l }}" href="{{ site.site_url }}/{{ page_path('home', l) }}">
+{% endfor %}
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<script>
+  // Open the site in the visitor's browser language; German otherwise.
+  (function () {
+    var langs = {{ site.languages | list | tojson }};
+    var pick = "{{ site.default_lang }}";
+    var prefs = navigator.languages || [navigator.language || ""];
+    for (var i = 0; i < prefs.length; i++) {
+      var code = String(prefs[i]).slice(0, 2).toLowerCase();
+      if (langs.indexOf(code) !== -1) { pick = code; break; }
+    }
+    location.replace(pick + "/");
+  })();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url={{ site.default_lang }}/"></noscript>
+<style>body{font-family:system-ui,sans-serif;margin:40px;color:#302E2A}a{color:#A8146A}</style>
+</head>
+<body>
+<p>
+{% for l, info in site.languages.items() %}
+<a href="{{ l }}/" hreflang="{{ l }}" lang="{{ l }}">{{ info.name }}</a>{% if not loop.last %} · {% endif %}
+{% endfor %}
+</p>
+</body>
+</html>

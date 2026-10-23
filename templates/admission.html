@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% from "_macros.html" import page_hero %}
+{% block main %}
+{{ page_hero(t.nav.admission, t.admission.h1, t.admission.lead, img(site.images.admission_hero), pos="50% 45%") }}
+
+<section class="wrap section section--tight-bottom">
+  <div class="places">
+    <div class="stack stack--sm">
+      <p class="pill pill--green">{{ t.top.places }}</p>
+      <h2 class="h-md">{{ t.admission.placesTitle }}</h2>
+    </div>
+    {% for p in t.admission.places %}
+    <div class="places__item"><div class="places__h">{{ p.h }}</div><p>{{ p.p }}</p></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2 class="h-lg">{{ t.admission.stepsTitle }}</h2>
+  <ol class="steps">
+    {% for s in t.admission.steps %}
+    <li class="step">
+      <span class="step__n" aria-hidden="true">{{ loop.index }}</span>
+      <h3 class="h-card">{{ s.h }}</h3>
+      <p>{{ s.p }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="wrap section section--tight-top grid grid--2 grid--wide-gap">
+  <div>
+    <h2 class="h-lg">{{ t.admission.feesTitle }}</h2>
+    <dl class="fees">
+      {% for f in t.admission.fees %}
+      <div class="fees__row"><dt>{{ f.l }}</dt><dd>{{ f.v }}</dd></div>
+      {% endfor %}
+    </dl>
+    <p class="muted small">{{ t.admission.feesNote }}</p>
+  </div>
+  <div class="panel tone-green stack">
+    <h2 class="h-md">{{ t.admission.parentsTitle }}</h2>
+    <ul class="list">{% for o in t.admission.parents %}<li>{{ o }}</li>{% endfor %}</ul>
+    <a class="btn btn--primary" href="mailto:{{ site.emails.places }}">{{ site.emails.places }}</a>
+  </div>
+</section>
+{% endblock %}

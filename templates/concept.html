@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% from "_macros.html" import photo, page_hero %}
+{% block main %}
+{{ page_hero(t.nav.concept, t.concept.h1, t.concept.lead, img(site.images.concept_hero)) }}
+
+<section class="wrap section">
+  <div class="grid grid--3">
+    {% for b in t.concept.blocks %}
+    <article class="card card--line">
+      <h2 class="h-card">{{ b.h }}</h2>
+      <p>{{ b.p }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="strip">
+    {% set pos = ["50% 30%", "50% 50%", "50% 50%", "50% 50%"] %}
+    {% for name in site.images.concept_strip %}
+    {{ photo(img(name), cls="strip__img", sizes="(min-width: 900px) 25vw, 50vw", pos=pos[loop.index0]) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2 class="h-lg">{{ t.concept.routineTitle }}</h2>
+  <p class="muted">{{ t.concept.routineNote }}</p>
+  <ol class="timeline">
+    {% for r in t.concept.routine %}
+    <li><span class="timeline__time">{{ r.time }}</span><span class="timeline__l">{{ r.l }}</span></li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="wrap section section--tight-top">
+  <h2 class="h-lg">{{ t.concept.weekTitle }}</h2>
+  <ul class="week">
+    {% for w in t.concept.week %}
+    <li class="week__day"><span class="week__d">{{ w.d }}</span><span class="week__a">{{ w.a }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="band band--dark">
+  <div class="wrap section stack">
+    <h2 class="h-lg">{{ t.concept.yearTitle }}</h2>
+    <ul class="chips">
+      {% for f in t.concept.festivals %}<li class="chip">{{ f }}</li>{% endfor %}
+    </ul>
+    <p class="on-dark">{{ t.concept.yearNote }}</p>
+  </div>
+</section>
+<div class="spacer"></div>
+{% endblock %}

@@ -1,0 +1,79 @@
+{
+  "site_url": "https://www.quijote.at",
+  "default_lang": "de",
+  "languages": {
+    "de": { "label": "DE", "name": "Deutsch", "locale": "de_AT" },
+    "en": { "label": "EN", "name": "English", "locale": "en_GB" },
+    "es": { "label": "ES", "name": "Español", "locale": "es_ES" }
+  },
+
+  "pages": {
+    "home":      { "de": "",            "en": "",             "es": "" },
+    "concept":   { "de": "konzept",     "en": "concept",      "es": "concepto" },
+    "team":      { "de": "team",        "en": "team",         "es": "equipo" },
+    "reviews":   { "de": "erfahrungen", "en": "reviews",      "es": "opiniones" },
+    "admission": { "de": "aufnahme",    "en": "admission",    "es": "inscripcion" },
+    "faq":       { "de": "faq",         "en": "faq",          "es": "preguntas" },
+    "contact":   { "de": "kontakt",     "en": "contact",      "es": "contacto" },
+    "legal":     { "de": "impressum",   "en": "legal-notice", "es": "aviso-legal" },
+    "thanks":    { "de": "danke",       "en": "thank-you",    "es": "gracias" }
+  },
+  "nav": ["home", "concept", "team", "reviews", "admission", "faq", "contact"],
+
+  "emails": {
+    "general": "don@quijote.at",
+    "places": "anmelden@quijote.at",
+    "jobs": "bewerbung@quijote.at",
+    "web": "admin@quijote.at"
+  },
+
+  "form": {
+    "endpoint": "https://formsubmit.co/",
+    "topics": ["place", "visit", "party", "job", "other"],
+    "route": {
+      "place": "anmelden@quijote.at",
+      "visit": "quijotekindergruppe@gmail.com",
+      "party": "quijotekindergruppe@gmail.com",
+      "job":   "quijotekindergruppe@gmail.com",
+      "other": "quijotekindergruppe@gmail.com"
+    },
+    "ask_child_age": ["place", "visit"],
+    "ask_party_date": ["party"]
+  },
+
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Gro%C3%9Fe%20Neugasse%2011%2C%201040%20Wien",
+
+  "team": [
+    { "name": "Silvia Steinhoff",          "photo": null, "tint": "pink" },
+    { "name": "Mercedes Clemente Castro",  "photo": null, "tint": "green" },
+    { "name": "Evelyn Khazen de Kaleta",   "photo": null, "tint": "sand" },
+    { "name": "[Name]",                    "photo": null, "tint": "green" }
+  ],
+
+  "images": {
+    "hero_main":   "kids-autumn-leaves",
+    "hero_square": "wall-gelb-amarillo",
+    "pillars":     ["bookshelf-labels", "friends-hug", "rain-boots"],
+    "gallery":     ["cloakroom", "bookshelf-spanish-german", "tree-mural", "craft-corner", "sign-park", "childrens-art"],
+    "concept_hero":  "painting-colours",
+    "concept_strip": ["tire-swing", "picture-books", "leaves-play", "colouring-butterfly"],
+    "team_hero":      "donkey-window",
+    "reviews_hero":   "siblings-smile",
+    "admission_hero": "door-donkeys",
+    "faq_hero":       "chalk-rainbow",
+    "entrance":       "entrance-grosse-neugasse-11",
+    "cta":            "painted-hand",
+    "share":          "kids-autumn-leaves"
+  },
+
+  "image_sizes": {
+    "kids-autumn-leaves": [1600, 1067], "wall-gelb-amarillo": [1200, 1600], "cloakroom": [1200, 1600],
+    "bookshelf-spanish-german": [1600, 1200], "tree-mural": [1200, 1600], "craft-corner": [1200, 1600],
+    "sign-park": [1200, 1600], "childrens-art": [1200, 1600], "bookshelf-labels": [1200, 1600],
+    "friends-hug": [1067, 1600], "rain-boots": [1600, 1067], "painting-colours": [1600, 1063],
+    "tire-swing": [1067, 1600], "picture-books": [1200, 1600], "leaves-play": [1600, 1067],
+    "colouring-butterfly": [1600, 1067], "donkey-window": [1200, 1600], "siblings-smile": [1600, 1067],
+    "door-donkeys": [1200, 1600], "chalk-rainbow": [1067, 1600], "entrance-grosse-neugasse-11": [1200, 1600],
+    "painted-hand": [1600, 1067]
+  }
+}

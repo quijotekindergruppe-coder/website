@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% from "_macros.html" import photo %}
+{% set f = site.form %}
+{% set first = f.topics[0] %}
+{% block main %}
+<section class="page-hero page-hero--pink">
+  <div class="wrap stack">
+    <p class="eyebrow">{{ t.nav.contact }}</p>
+    <h1 class="h-page">{{ t.contact.h1 }}</h1>
+    <p class="lead">{{ t.contact.lead }}</p>
+  </div>
+</section>
+
+<section class="wrap section contact">
+  <div class="stack stack--lg">
+    <div class="grid grid--2 grid--tight">
+      {% for c in t.contact.cards %}
+      <div class="contact-card">
+        <p class="contact-card__l">{{ c.l }}</p>
+        {% if c.mail %}<a class="contact-card__v" href="mailto:{{ c.v }}">{{ c.v }}</a>
+        {% else %}<p class="contact-card__v pre">{{ c.v }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <figure class="entrance">
+      {{ photo(img(site.images.entrance), alt=t.contact.mapLabel, cls="entrance__img", sizes="(min-width: 900px) 25vw, 100vw") }}
+      <figcaption class="stack stack--sm">
+        <p class="h-small">{{ t.contact.mapLabel }}</p>
+        <p class="muted">{{ t.contact.mapHint }}</p>
+        <a class="btn btn--outline btn--sm" href="{{ site.maps_url }}" target="_blank" rel="noopener">{{ t.contact.mapLink }} <span aria-hidden="true">↗</span><span class="sr">({{ t.ui2.newTab }})</span></a>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="panel tone-green">
+    <form class="form" id="contact-form" method="POST"
+          action="{{ f.endpoint }}{{ f.route[first] }}"
+          data-endpoint="{{ f.endpoint }}"
+          data-thanks="{{ url('thanks') }}">
+      <h2 class="h-md">{{ t.contact.formTitle }}</h2>
+
+      <input type="hidden" name="_subject" value="Quijote Website: {{ t.contact.topics[first] }}">
+      <input type="hidden" name="_next" value="{{ site.site_url }}/{{ lang }}/{{ site.pages.thanks[lang] }}/">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="language" value="{{ site.languages[lang].name }}">
+      <div class="hp" aria-hidden="true"><label>Leave empty <input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+
+      <label class="field"><span>{{ t.contact.fName }} <abbr title="{{ t.ui2.required }}">*</abbr></span>
+        <input type="text" name="name" autocomplete="name" required>
+      </label>
+      <label class="field"><span>{{ t.contact.fEmail }} <abbr title="{{ t.ui2.required }}">*</abbr></span>
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <div class="grid grid--2 grid--tight">
+        <label class="field">{{ t.contact.fTopic }}
+          <select name="topic" id="topic">
+            {% for k in f.topics %}
+            <option value="{{ t.contact.topics[k] }}" data-key="{{ k }}" data-route="{{ f.route[k] }}">{{ t.contact.topics[k] }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="field" data-show-for="{{ f.ask_child_age | join(' ') }}">{{ t.contact.fChild }}
+          <input type="text" name="child_age">
+        </label>
+        <label class="field" data-show-for="{{ f.ask_party_date | join(' ') }}" hidden>{{ t.contact.fPartyDate }}
+          <input type="date" name="party_date" disabled>
+        </label>
+      </div>
+      <label class="field"><span>{{ t.contact.fMsg }} <abbr title="{{ t.ui2.required }}">*</abbr></span>
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <label class="check"><input type="checkbox" name="consent" value="yes" required><span>{{ t.contact.fConsent }}</span></label>
+      <div class="btn-row">
+        <button class="btn btn--primary" type="submit">{{ t.contact.fSend }}</button>
+        <p class="small" aria-live="polite">{{ t.contact.goesTo }} <strong id="recipient">{{ f.route[first] }}</strong></p>
+      </div>
+    </form>
+  </div>
+</section>
+{% endblock %}

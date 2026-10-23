@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>404 – Quijote</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Nunito:wght@400;700;800&display=swap">
+<style>
+  body{margin:0;font-family:Nunito,system-ui,sans-serif;color:#302E2A;background:#FBEAF3;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box}
+  main{max-width:640px;display:flex;flex-direction:column;gap:28px}
+  h1{font-family:Poppins,sans-serif;font-weight:800;font-size:clamp(28px,5vw,40px);line-height:1.1;margin:0}
+  p{margin:6px 0 0;font-size:18px;line-height:1.55;color:#45423C}
+  a{display:inline-flex;align-items:center;min-height:48px;margin-top:12px;padding:0 22px;border-radius:999px;background:#C8197F;color:#fff;font-weight:800;text-decoration:none}
+  a:hover{background:#A8146A}
+  .q{font-family:Poppins,sans-serif;font-weight:800;font-size:72px;line-height:1;color:#C8197F}
+</style>
+</head>
+<body>
+<main>
+  <div class="q" aria-hidden="true">404</div>
+  {# Show all three languages; a 404 can't know the visitor's language. Links are
+     relative to the site root, worked out from the current address. #}
+  {% for l in site.languages %}
+  <section lang="{{ l }}">
+    <h1>{{ texts[l].notFound.title }}</h1>
+    <p>{{ texts[l].notFound.text }}</p>
+    <a class="home-link" data-lang="{{ l }}" href="{{ site.site_url }}/{{ page_path('home', l) }}">{{ texts[l].notFound.back }}</a>
+  </section>
+  {% endfor %}
+</main>
+<script>
+  // On a GitHub Pages preview the site lives under /<repo>/; point the links there.
+  (function () {
+    var host = location.hostname, path = location.pathname.split("/").filter(Boolean);
+    if (/\.github\.io$/.test(host) && path.length) {
+      document.querySelectorAll(".home-link").forEach(function (a) {
+        a.href = "/" + path[0] + "/" + a.getAttribute("data-lang") + "/";
+      });
+    }
+  })();
+</script>
+</body>
+</html>

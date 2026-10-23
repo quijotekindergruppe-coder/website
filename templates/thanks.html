@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="wrap wrap--narrow section thanks">
+  <div class="thanks__icon" aria-hidden="true"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></div>
+  <h1 class="h-page">{{ t.thanks.title }}</h1>
+  <p class="lead">{{ t.thanks.text }}</p>
+  <a class="btn btn--primary" href="{{ url('home') }}">{{ t.thanks.back }}</a>
+</section>
+{% endblock %}

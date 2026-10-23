@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% from "_macros.html" import photo, page_hero %}
+{% block main %}
+{{ page_hero(t.nav.team, t.team.h1, t.team.lead, img(site.images.team_hero), pos="50% 40%") }}
+
+<section class="wrap section">
+  <div class="grid grid--4">
+    {% for m in site.team %}
+    <article class="person">
+      {% if m.photo %}
+      {{ photo(img(m.photo), alt=m.name, cls="person__img", sizes="(min-width: 900px) 25vw, 50vw") }}
+      {% else %}
+      {% set initials = m.name.replace('[','').replace(']','').split() | map('first') | list %}
+      <div class="person__img person__img--empty tone-{{ m.tint }}" aria-hidden="true">{{ (initials[0] ~ (initials[-1] if initials | length > 1 else '')) | upper }}</div>
+      {% endif %}
+      <div>
+        <h2 class="h-card">{{ m.name }}</h2>
+        <p class="person__role">{{ t.team.roles[loop.index0] }}</p>
+      </div>
+      <p>{{ t.team.bios[loop.index0] }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section section--tight-top">
+  <div class="grid grid--3">
+    {% for f in t.team.facts %}
+    <div class="stat tone-green"><div class="stat__n">{{ f.n }}</div><p>{{ f.l }}</p></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section section--tight-top" id="jobs">
+  <div class="jobs">
+    <div class="stack">
+      <p class="pill pill--green">{{ t.team.jobsBadge }}</p>
+      <h2 class="h-lg">{{ t.team.jobsTitle }}</h2>
+      <p>{{ t.team.jobsLead }}</p>
+      <a class="btn btn--primary" href="mailto:{{ site.emails.jobs }}">{{ site.emails.jobs }}</a>
+    </div>
+    <div class="grid grid--2">
+      <div>
+        <h3 class="h-small">{{ t.team.offerTitle }}</h3>
+        <ul class="list">{% for o in t.team.offer %}<li>{{ o }}</li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h3 class="h-small">{{ t.team.seekTitle }}</h3>
+        <ul class="list">{% for o in t.team.seek %}<li>{{ o }}</li>{% endfor %}</ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

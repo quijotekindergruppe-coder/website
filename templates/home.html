@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% from "_macros.html" import photo %}
+{% block main %}
+<section class="home-hero">
+  <div class="wrap home-hero__in">
+    <div class="stack stack--lg">
+      <p class="pill">{{ t.home.eyebrow }}</p>
+      <h1 class="h-hero">{{ t.home.h1a }} <span class="accent">{{ t.home.h1b }}</span></h1>
+      <p class="lead">{{ t.home.lead }}</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="{{ url('admission') }}">{{ t.home.cta1 }}</a>
+        <a class="btn btn--outline" href="{{ url('concept') }}">{{ t.home.cta2 }}</a>
+      </div>
+    </div>
+    <div class="home-hero__photos">
+      {{ photo(img(site.images.hero_main), cls="home-hero__main", eager=true) }}
+      {{ photo(img(site.images.hero_square), alt=t.home.heroAlt, cls="home-hero__sq", sizes="(min-width: 900px) 25vw, 50vw", pos="50% 30%") }}
+      <div class="home-hero__logo"><img src="{{ root }}assets/img/logo.png" alt="Quijote – Kindergruppe · Jardín infantil" width="480" height="480"></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap facts">
+  {% for f in t.home.facts %}
+  <div class="fact"><div class="fact__n">{{ f.n }}</div><div class="fact__l">{{ f.l }}</div></div>
+  {% endfor %}
+</section>
+
+<section class="wrap section">
+  <h2 class="h-xl">{{ t.home.pillarsTitle }}</h2>
+  <div class="grid grid--3">
+    {% set tones = ["pink", "green", "sand"] %}
+    {% for p in t.home.pillars %}
+    <article class="card card--photo tone-{{ tones[loop.index0] }}">
+      {{ photo(img(site.images.pillars[loop.index0]), cls="card__img", sizes="(min-width: 900px) 33vw, 100vw") }}
+      <div class="card__body">
+        <h3 class="h-card">{{ p.h }}</h3>
+        <p>{{ p.p }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="section__head">
+    <h2 class="h-xl">{{ t.home.dayTitle }}</h2>
+    <a class="link-more" href="{{ url('concept') }}">{{ t.home.dayLink }} →</a>
+  </div>
+  <ol class="day-grid">
+    {% for r in t.concept.routine %}
+    <li class="day"><span class="day__time">{{ r.time }}</span><span class="day__l">{{ r.l }}</span></li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="wrap section">
+  <h2 class="h-xl">{{ t.home.galleryTitle }}</h2>
+  <div class="gallery">
+    {% for label in t.home.gallery %}
+    <figure class="gallery__item">
+      {{ photo(img(site.images.gallery[loop.index0]), cls="gallery__img", sizes="(min-width: 900px) 33vw, (min-width: 560px) 50vw, 100vw") }}
+      <figcaption>{{ label }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="band band--green">
+  <div class="wrap section">
+    <div class="section__head">
+      <h2 class="h-xl">{{ t.home.reviewsTitle }}</h2>
+      <a class="link-more link-more--ink" href="{{ url('reviews') }}">{{ t.home.reviewsLink }} →</a>
+    </div>
+    <div class="grid grid--2">
+      {% for r in t.reviews["items"][:2] %}
+      <figure class="quote quote--white">
+        <div class="quote__mark" aria-hidden="true">“</div>
+        <blockquote>{{ r.q }}</blockquote>
+        <figcaption>{{ r.who }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

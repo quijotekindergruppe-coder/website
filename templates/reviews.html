@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% from "_macros.html" import page_hero %}
+{% block main %}
+{{ page_hero(t.nav.reviews, t.reviews.h1, t.reviews.lead, img(site.images.reviews_hero), tone="green") }}
+
+<section class="wrap section">
+  <div class="grid grid--2">
+    {% for r in t.reviews["items"] %}
+    <figure class="quote">
+      <div class="quote__mark" aria-hidden="true">“</div>
+      <blockquote>{{ r.q }}</blockquote>
+      <figcaption>{{ r.who }} <span class="tag">{{ r.lang }}</span></figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="share">
+    <p>{{ t.reviews.share }}</p>
+    <a class="btn btn--dark" href="mailto:{{ site.emails.general }}">{{ t.reviews.shareBtn }}</a>
+  </div>
+</section>
+{% endblock %}

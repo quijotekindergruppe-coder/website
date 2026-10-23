@@ -1,0 +1,19 @@
+{# Responsive photo. `sizes` tells the browser how wide the image shows on screen;
+   `pos` moves the crop focus (e.g. "50% 30%" keeps the upper part in view). #}
+{% macro photo(im, alt="", cls="", sizes="(min-width: 900px) 50vw, 100vw", eager=false, pos=none) %}
+<img class="{{ cls }}" src="{{ im.src }}" srcset="{{ im.srcset }}" sizes="{{ sizes }}" width="{{ im.w }}" height="{{ im.h }}" alt="{{ alt }}"{% if pos %} style="object-position: {{ pos }}"{% endif %}{% if eager %} fetchpriority="high"{% else %} loading="lazy"{% endif %} decoding="async">
+{%- endmacro %}
+
+{# Coloured page header with the title on the left and a photo on the right. #}
+{% macro page_hero(eyebrow, h1, lead, im, tone="pink", pos=none) %}
+<section class="page-hero page-hero--{{ tone }}">
+  <div class="wrap page-hero__in">
+    <div class="stack">
+      <p class="eyebrow">{{ eyebrow }}</p>
+      <h1 class="h-page">{{ h1 }}</h1>
+      <p class="lead">{{ lead }}</p>
+    </div>
+    {{ photo(im, cls="page-hero__img", eager=true, pos=pos) }}
+  </div>
+</section>
+{%- endmacro %}
