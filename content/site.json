@@ -108,17 +108,17 @@
   "team": [
     {
       "name": "Silvia Steinhoff",
-      "photo": null,
+      "photo": "team-silvia",
       "tint": "pink"
     },
     {
       "name": "Mercedes Clemente Castro",
-      "photo": null,
+      "photo": "team-mercedes",
       "tint": "green"
     },
     {
       "name": "Evelyn Khazen de Kaleta",
-      "photo": null,
+      "photo": "team-evelyn",
       "tint": "sand"
     },
     {
@@ -150,7 +150,7 @@
       "leaves-play",
       "colouring-butterfly"
     ],
-    "team_hero": "donkey-window",
+    "team_hero": "team-group",
     "reviews_hero": "siblings-smile",
     "admission_hero": "door-donkeys",
     "faq_hero": "chalk-rainbow",
@@ -246,6 +246,22 @@
     "painted-hand": [
       1600,
       1067
+    ],
+    "team-silvia": [
+      480,
+      640
+    ],
+    "team-mercedes": [
+      480,
+      640
+    ],
+    "team-evelyn": [
+      1600,
+      2133
+    ],
+    "team-group": [
+      1600,
+      1200
     ]
   },
   "fees": [

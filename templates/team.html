@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% from "_macros.html" import photo, page_hero %}
 {% block main %}
-{{ page_hero(t.nav.team, t.team.h1, t.team.lead, img(site.images.team_hero), pos="50% 40%") }}
+{{ page_hero(t.nav.team, t.team.h1, t.team.lead, img(site.images.team_hero), pos="50% 30%", alt=t.team.heroAlt) }}
 
 <section class="wrap section">
   <div class="grid grid--4">
     {% for m in site.team %}
     <article class="person">
       {% if m.photo %}
-      {{ photo(img(m.photo), alt=m.name, cls="person__img", sizes="(min-width: 900px) 25vw, 50vw") }}
+      {{ photo(img(m.photo), alt=m.name, cls="person__img", sizes="(min-width: 900px) 25vw, 320px", pos="50% 25%") }}
       {% else %}
       {% set initials = m.name.replace('[','').replace(']','').split() | map('first') | list %}
       <div class="person__img person__img--empty tone-{{ m.tint }}" aria-hidden="true">{{ (initials[0] ~ (initials[-1] if initials | length > 1 else '')) | upper }}</div>
@@ -17,6 +17,7 @@
         <h2 class="h-card">{{ m.name }}</h2>
         <p class="person__role">{{ t.team.roles[loop.index0] }}</p>
       </div>
+      {% if t.team.bios[loop.index0] %}<p>{{ t.team.bios[loop.index0] }}</p>{% endif %}
     </article>
     {% endfor %}
   </div>

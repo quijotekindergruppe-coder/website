@@ -219,7 +219,14 @@
       "Training as an educator or caregiver",
       "Native Spanish, very good German",
       "Music, dance or art – and lots of humour"
-    ]
+    ],
+    "bios": [
+      "My name is Silvia. I was born and raised bilingually (Spanish–German) in Buenos Aires. With dedication, love and solid training, I have spent many years supporting children and families as they grow and develop. For me, Quijote is a warm, family-like place where every child is respected, supported and cared for with joy and affection – helping them unfold their talents and strengths, and holding them where they need it most.",
+      "My name is Mercedes and I'm from Peru. Thanks to my many years of experience as an educator, I awaken a love of learning in young children. What I enjoy most is witnessing the children's development and growth. The family atmosphere in the group and the close contact with parents enrich my daily work.",
+      "My name is Evelyn and I'm from Venezuela. As a childcare worker, I accompany the children with love, dedication and joy through every stage of their development. My warm, patient and empathetic nature helps me create an atmosphere of trust and security. Through play, creativity and learning, I nurture joy, well-being and values that will stay with the children for life. I'm proud to be part of the Quijote team and to share its passion for education.",
+      "Maura is from Havana, Cuba, and loves cooking her favourite dishes for the children – rice and beans, lentils and arroz con pollo. Everything is made fresh, with ingredients she buys every day."
+    ],
+    "heroAlt": "The Quijote team: Mercedes, Silvia and Evelyn"
   },
   "reviews": {
     "h1": "What families say",

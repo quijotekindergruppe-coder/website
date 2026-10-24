@@ -5,7 +5,7 @@
 {%- endmacro %}
 
 {# Coloured page header with the title on the left and a photo on the right. #}
-{% macro page_hero(eyebrow, h1, lead, im, tone="pink", pos=none) %}
+{% macro page_hero(eyebrow, h1, lead, im, tone="pink", pos=none, alt="") %}
 <section class="page-hero page-hero--{{ tone }}">
   <div class="wrap page-hero__in">
     <div class="stack">
@@ -13,7 +13,7 @@
       <h1 class="h-page">{{ h1 }}</h1>
       <p class="lead">{{ lead }}</p>
     </div>
-    {{ photo(im, cls="page-hero__img", eager=true, pos=pos) }}
+    {{ photo(im, alt=alt, cls="page-hero__img", eager=true, pos=pos) }}
   </div>
 </section>
 {%- endmacro %}

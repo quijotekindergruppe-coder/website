@@ -90,9 +90,12 @@ def render_all():
                 return _root + page_path(target, target_lang)
 
             def img(name, _root=root):
+                full_w = site["image_sizes"][name][0]
+                widths = sorted({min(800, full_w), min(1600, full_w)})
+                files = {widths[0]: "800", widths[-1]: "1600"}
                 return {
                     "src": f"{_root}assets/img/{name}-800.jpg",
-                    "srcset": f"{_root}assets/img/{name}-800.jpg 800w, {_root}assets/img/{name}-1600.jpg 1600w",
+                    "srcset": ", ".join(f"{_root}assets/img/{name}-{files[w]}.jpg {w}w" for w in widths),
                     "w": site["image_sizes"][name][0],
                     "h": site["image_sizes"][name][1],
                 }

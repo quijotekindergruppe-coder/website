@@ -219,7 +219,14 @@
       "Formación en pedagogía o como Betreuer/in",
       "Español nativo y muy buen alemán",
       "Música, baile o arte – y mucho humor"
-    ]
+    ],
+    "bios": [
+      "Mi nombre es Silvia, nací y me crié en Buenos Aires de forma bilingüe (español-alemán). Con vocación, amor y sólida formación me dedico hace muchos años a acompañar a niños y familias en su proceso de crecimiento y desarrollo. El Quijote es para mí un lugar cálido y familiar donde se respeta, acompaña y cuida a cada niño con alegría y cariño, buscando desplegar sus talentos y fortalezas y sostenerlo donde más lo necesita.",
+      "Me llamo Mercedes y soy de Perú. Gracias a mis muchos años de experiencia como educadora, consigo despertar en los niños pequeños el gusto por el aprendizaje. Lo que más me gusta es poder ser testigo del desarrollo y el crecimiento de los niños. El ambiente familiar que se respira en el grupo de niños, así como el estrecho contacto con los padres, enriquecen mi trabajo diario.",
+      "Mi nombre es Evelyn, soy de Venezuela. Como cuidadora infantil, acompaño a los niños con amor, dedicación y alegría en cada etapa de su desarrollo. Mi carácter cariñoso, paciente y empático me permite crear un ambiente de confianza y seguridad. A través del juego, la creatividad y el aprendizaje, fomento la alegría, el bienestar y valores que acompañarán a los niños toda su vida. Me enorgullece formar parte del equipo Quijote y ser parte de su pasión por la educación.",
+      "Maura es de La Habana, Cuba, y le encanta preparar sus platos favoritos para los niños: arroz con frijoles, lentejas y arroz con pollo. Todo lo cocina fresco, con ingredientes que compra cada día."
+    ],
+    "heroAlt": "El equipo de Quijote: Mercedes, Silvia y Evelyn"
   },
   "reviews": {
     "h1": "Experiencias de las familias",
